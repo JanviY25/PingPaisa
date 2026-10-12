@@ -29,6 +29,9 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import android.util.Log
 import kotlinx.coroutines.launch
+import com.example.smart_expense_tracker.healthscore.HealthScoreScreen
+import com.example.smart_expense_tracker.healthscore.LoanSimulatorScreen
+import com.example.smart_expense_tracker.healthscore.ScoreCalculator
 
 
 class MainActivity : ComponentActivity() {
@@ -97,39 +100,81 @@ fun ExpenseTrackerScreen(context: android.content.Context) {
     Scaffold(
         topBar = {
             Column(modifier = Modifier.fillMaxWidth().background(Color(0xFFFFF6EC)).padding(20.dp)) {
-                Text("Hey there! 👋", fontSize = 16.sp, color = Color.Gray)
-                Spacer(Modifier.height(4.dp))
-                Text("₹${"%.2f".format(totalSpent)}", fontSize = 32.sp, fontWeight = FontWeight.Bold)
-                Text("total spent so far", fontSize = 14.sp, color = Color.Gray)
+                when (selectedTab) {
+                    3 -> {
+                        Text("HEALTH SCORE", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFF7FA99B))
+                        Spacer(Modifier.height(4.dp))
+                        Text("Your financial score", fontSize = 22.sp, fontWeight = FontWeight.Bold)
+                    }
+                    4 -> {
+                        Text("LOAN PLANNING", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFF7FA99B))
+                        Spacer(Modifier.height(4.dp))
+                        Text("Simulate a loan", fontSize = 22.sp, fontWeight = FontWeight.Bold)
+                    }
+                    else -> {
+                        Text("Hey there! 👋", fontSize = 16.sp, color = Color.Gray)
+                        Spacer(Modifier.height(4.dp))
+                        Text("₹${"%.2f".format(totalSpent)}", fontSize = 32.sp, fontWeight = FontWeight.Bold)
+                        Text("total spent so far", fontSize = 14.sp, color = Color.Gray)
+                    }
+                }
                 Spacer(Modifier.height(12.dp))
                 TabRow(selectedTabIndex = selectedTab, containerColor = Color.Transparent) {
                     Tab(selected = selectedTab == 0, onClick = { selectedTab = 0 }, text = { Text("List") })
                     Tab(selected = selectedTab == 1, onClick = { selectedTab = 1 }, text = { Text("Insights") })
                     Tab(selected = selectedTab == 2, onClick = { selectedTab = 2 }, text = { Text("Recurring") })
+                    Tab(selected = selectedTab == 3, onClick = { selectedTab = 3 }, text = { Text("Health") })
+                    Tab(selected = selectedTab == 4, onClick = { selectedTab = 4 }, text = { Text("Loan") })
                 }
             }
         },
         floatingActionButton = {
-            Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                FloatingActionButton(
-                    onClick = {
-                        if (selectedTab == 2) {
-                            showAddRecurring = true
-                        } else {
-                            showManualEntry = true
-                        }
-                    },
-                    containerColor = Color(0xFFFFB7B2)
-                ) { Text("➕", fontSize = 20.sp) }
-                Spacer(Modifier.height(12.dp))
-                FloatingActionButton(
-                    onClick = { scope.launch { refresh() } },
-                    containerColor = Color(0xFFC7CEEA)
-                ) { Text("🔄", fontSize = 20.sp) }
+            // Hidden on Health (3) and Loan (4) tabs — the add/refresh
+            // actions aren't relevant there, they're for transaction data.
+            if (selectedTab != 3 && selectedTab != 4) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    FloatingActionButton(
+                        onClick = {
+                            if (selectedTab == 2) {
+                                showAddRecurring = true
+                            } else {
+                                showManualEntry = true
+                            }
+                        },
+                        containerColor = Color(0xFFFFB7B2)
+                    ) { Text("➕", fontSize = 20.sp) }
+                    Spacer(Modifier.height(12.dp))
+                    FloatingActionButton(
+                        onClick = { scope.launch { refresh() } },
+                        containerColor = Color(0xFFC7CEEA)
+                    ) { Text("🔄", fontSize = 20.sp) }
+                }
             }
         }
     ) { padding ->
-        if (selectedTab == 2) {
+        val testRawFactors = ScoreCalculator.RawFactors(
+            income = 40000.0,
+            expense = totalSpent,
+            totalEmiAmount = recurringItems.filter { it.type == "EMI" }.sumOf { it.amount },
+            monthlyTotals = listOf(totalSpent),
+            recurringOccurrences = detectedRecurring.sumOf { it.occurrences },
+            recurringExpectedMonths = if (detectedRecurring.isNotEmpty()) 3 else 0
+        )
+        val testResult = ScoreCalculator.calculate(testRawFactors)
+
+        if (selectedTab == 3) {
+            HealthScoreScreen(
+                result = testResult,
+                aiInsight = "This is placeholder text — real AI-generated insight coming soon.",
+                modifier = Modifier.padding(padding)
+            )
+        } else if (selectedTab == 4) {
+            LoanSimulatorScreen(
+                baseline = testRawFactors,
+                baselineScore = testResult.score,
+                modifier = Modifier.padding(padding)
+            )
+        } else if (selectedTab == 2) {
             RecurringView(
                 manualItems = recurringItems,
                 detectedItems = detectedRecurring,
@@ -146,7 +191,6 @@ fun ExpenseTrackerScreen(context: android.content.Context) {
                 }
             }
         } else if (selectedTab == 0) {
-            // Group transactions by category, category with highest spend first
             val allCategoriesPresent = transactions.map { it.category }.distinct().sorted()
 
             val grouped = transactions.groupBy { it.category }
@@ -346,7 +390,6 @@ fun CategoryPickerSheet(
             Text(recipient, fontSize = 13.sp, color = Color.Gray)
             Spacer(Modifier.height(16.dp))
 
-            // Add-new-category input placed at the TOP so it's always immediately reachable
             Text("Add a new category", fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
             Spacer(Modifier.height(8.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -429,12 +472,10 @@ fun RecurringView(
             return@Column
         }
 
-        // Group manual items by their type (EMI / SIP / Other)
         val manualByType = manualItems.groupBy { it.type }
             .toList()
             .sortedByDescending { (_, items) -> items.sumOf { it.amount } }
 
-        // Auto-detected items get their own section, since they don't have a user-assigned type
         if (detectedItems.isNotEmpty()) {
             val detectedTotal = detectedItems.sumOf { it.averageAmount }
             RecurringSectionHeader("Auto-detected", detectedTotal, Color(0xFFB5EAD7))

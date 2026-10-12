@@ -4,16 +4,19 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.smart_expense_tracker.healthscore.HealthScoreHistory
+import com.example.smart_expense_tracker.healthscore.HealthScoreHistoryDao
 
 @Database(
-    entities = [Transaction::class, MerchantOverride::class, RecurringItem::class],
-    version = 4
+    entities = [Transaction::class, MerchantOverride::class, RecurringItem::class, HealthScoreHistory::class],
+    version = 5
 )
 abstract class AppDatabase : RoomDatabase() {
 
     abstract fun transactionDao(): TransactionDao
     abstract fun merchantOverrideDao(): MerchantOverrideDao
     abstract fun recurringItemDao(): RecurringItemDao
+    abstract fun healthScoreHistoryDao(): HealthScoreHistoryDao
 
     companion object {
         @Volatile
