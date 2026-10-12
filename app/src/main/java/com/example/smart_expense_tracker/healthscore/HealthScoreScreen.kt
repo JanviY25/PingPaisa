@@ -1,13 +1,13 @@
 package com.example.smart_expense_tracker.healthscore
 
 import androidx.compose.foundation.Canvas
-import androidx.compose.material3.Text
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -22,14 +22,7 @@ import androidx.compose.ui.unit.sp
 import kotlin.math.cos
 import kotlin.math.sin
 
-/**
- * ============================================================
- * OFFICIAL PINGPAISA DESIGN SYSTEM — exact hex values from the
- * team's shared Figma design system reference. Kept local to
- * this file (not the shared colors.xml) so it can't conflict
- * with teammates' in-progress branches.
- * ============================================================
- */
+/** Official PingPaisa design system colors (kept local to avoid merge conflicts). */
 private object ScoreColors {
     val Sage = Color(0xFFA8C4A2)
     val DustyTeal = Color(0xFF7FA99B)
@@ -66,7 +59,7 @@ fun HealthScoreScreen(
     ) {
         GaugeCard(score = result.score, risk = result.risk)
         Spacer(Modifier.height(20.dp))
-        FactorBreakdownCard(factors = result.factors)
+        FactorBreakdownCard(f = result.factors)
         Spacer(Modifier.height(20.dp))
         AiInsightCard(insight = aiInsight)
         Spacer(Modifier.height(20.dp))
@@ -208,8 +201,10 @@ private fun RiskBadge(risk: ScoreCalculator.RiskLevel) {
     }
 }
 
+private fun pctText(p: Int): String = if (p >= 100) "100%+" else "$p%"
+
 @Composable
-private fun FactorBreakdownCard(factors: ScoreCalculator.NormalizedFactors) {
+private fun FactorBreakdownCard(f: ScoreCalculator.NormalizedFactors) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -225,18 +220,41 @@ private fun FactorBreakdownCard(factors: ScoreCalculator.NormalizedFactors) {
         )
         Spacer(Modifier.height(16.dp))
 
-        FactorBar("Savings rate", factors.savingsRate, ScoreColors.Sage)
+        FactorBar(
+            label = "Savings rate",
+            value = f.savings,
+            color = ScoreColors.Sage,
+            detail = if (f.savingsRatePercent < 0) "You're spending more than you earn"
+            else "You save ${f.savingsRatePercent}% of income (30%+ = full marks)"
+        )
         Spacer(Modifier.height(14.dp))
-        FactorBar("EMI-to-income", 1.0 - factors.emiToIncomeRatio, ScoreColors.Blush)
+        FactorBar(
+            label = "EMI burden",
+            value = f.emi,
+            color = ScoreColors.Blush,
+            detail = "EMIs use ${pctText(f.emiRatioPercent)} of income (50%+ = zero marks)"
+        )
         Spacer(Modifier.height(14.dp))
-        FactorBar("Spending consistency", factors.spendingConsistency, ScoreColors.AiLavender)
+        FactorBar(
+            label = "Spending consistency",
+            value = f.consistency,
+            color = ScoreColors.AiLavender,
+            detail = if (f.consistencyKnown) "How steady your month-to-month spending is"
+            else "Needs 2+ months of data, counted as neutral for now"
+        )
         Spacer(Modifier.height(14.dp))
-        FactorBar("Recurring reliability", factors.recurringReliability, ScoreColors.Peach)
+        FactorBar(
+            label = "Recurring reliability",
+            value = f.reliability,
+            color = ScoreColors.Peach,
+            detail = if (f.reliabilityKnown) "Share of recurring payments made on schedule"
+            else "No recurring payments detected yet, counted as neutral"
+        )
     }
 }
 
 @Composable
-private fun FactorBar(label: String, value: Double, color: Color) {
+private fun FactorBar(label: String, value: Double, color: Color, detail: String) {
     val percent = (value * 100).toInt().coerceIn(0, 100)
     Column {
         Row(
@@ -262,6 +280,8 @@ private fun FactorBar(label: String, value: Double, color: Color) {
                     .background(color)
             )
         }
+        Spacer(Modifier.height(4.dp))
+        Text(detail, fontSize = 11.sp, color = Color.Gray)
     }
 }
 

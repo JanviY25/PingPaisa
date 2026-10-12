@@ -23,6 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.material.icons.Icons
@@ -32,6 +33,7 @@ import kotlinx.coroutines.launch
 import com.example.smart_expense_tracker.healthscore.HealthScoreScreen
 import com.example.smart_expense_tracker.healthscore.LoanSimulatorScreen
 import com.example.smart_expense_tracker.healthscore.ScoreCalculator
+import com.example.smart_expense_tracker.healthscore.SpendingHistory
 
 
 class MainActivity : ComponentActivity() {
@@ -86,6 +88,12 @@ fun ExpenseTrackerScreen(context: android.content.Context) {
     var showAddRecurring by remember { mutableStateOf(false) }
     val scope = rememberCoroutineScope()
 
+    // TEMPORARY manual income input (fallback until Teammate A's Income table
+    // is merged, per Section 5.1). Kept as text so the box can be cleared and
+    // retyped freely without crashing on a half-typed number.
+    var incomeText by remember { mutableStateOf("40000") }
+    val monthlyIncome = incomeText.toDoubleOrNull() ?: 0.0
+
     suspend fun refresh() {
         val db = AppDatabase.getDatabase(context)
         transactions = db.transactionDao().getAll()
@@ -129,8 +137,6 @@ fun ExpenseTrackerScreen(context: android.content.Context) {
             }
         },
         floatingActionButton = {
-            // Hidden on Health (3) and Loan (4) tabs — the add/refresh
-            // actions aren't relevant there, they're for transaction data.
             if (selectedTab != 3 && selectedTab != 4) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     FloatingActionButton(
@@ -152,28 +158,45 @@ fun ExpenseTrackerScreen(context: android.content.Context) {
             }
         }
     ) { padding ->
-        val testRawFactors = ScoreCalculator.RawFactors(
-            income = 40000.0,
-            expense = totalSpent,
+        // Real numbers for the score, all MONTHLY:
+        //  - expense = this month's tracked spending + EMIs from the Recurring tab
+        //    (declared EMIs are money leaving the account, so they lower savings)
+        //  - EMI total comes from the Recurring tab
+        //  - consistency / reliability come from transaction history
+        val thisMonthSpend = SpendingHistory.thisMonthSpend(transactions)
+        val monthlyOutflow = SpendingHistory.monthlyOutflow(transactions, recurringItems)
+        val rawFactors = ScoreCalculator.RawFactors(
+            income = monthlyIncome,
+            expense = monthlyOutflow,
             totalEmiAmount = recurringItems.filter { it.type == "EMI" }.sumOf { it.amount },
-            monthlyTotals = listOf(totalSpent),
-            recurringOccurrences = detectedRecurring.sumOf { it.occurrences },
-            recurringExpectedMonths = if (detectedRecurring.isNotEmpty()) 3 else 0
+            monthlyTotals = SpendingHistory.recentMonthlyTotals(transactions),
+            recurringReliability = SpendingHistory.recurringReliability(transactions, detectedRecurring)
         )
-        val testResult = ScoreCalculator.calculate(testRawFactors)
+        val scoreResult = ScoreCalculator.calculate(rawFactors)
+
+        val incomeHint = when {
+            monthlyIncome <= 0 -> "Enter your monthly income to see your score."
+            thisMonthSpend == 0.0 -> "No spending recorded this month yet. Add transactions in the List tab for a realistic score."
+            else -> null
+        }
 
         if (selectedTab == 3) {
-            HealthScoreScreen(
-                result = testResult,
-                aiInsight = "This is placeholder text — real AI-generated insight coming soon.",
-                modifier = Modifier.padding(padding)
-            )
+            Column(modifier = Modifier.padding(padding)) {
+                IncomeInputField(incomeText = incomeText, onIncomeChange = { incomeText = it }, hint = incomeHint)
+                HealthScoreScreen(
+                    result = scoreResult,
+                    aiInsight = "This is placeholder text — real AI-generated insight coming soon.",
+                    modifier = Modifier.weight(1f)
+                )
+            }
         } else if (selectedTab == 4) {
-            LoanSimulatorScreen(
-                baseline = testRawFactors,
-                baselineScore = testResult.score,
-                modifier = Modifier.padding(padding)
-            )
+            Column(modifier = Modifier.padding(padding)) {
+                IncomeInputField(incomeText = incomeText, onIncomeChange = { incomeText = it }, hint = incomeHint)
+                LoanSimulatorScreen(
+                    baseline = rawFactors,
+                    modifier = Modifier.weight(1f)
+                )
+            }
         } else if (selectedTab == 2) {
             RecurringView(
                 manualItems = recurringItems,
@@ -269,6 +292,45 @@ fun ExpenseTrackerScreen(context: android.content.Context) {
                 scope.launch { refresh() }
             }
         )
+    }
+}
+
+/**
+ * Editable income box shown above the Health and Loan tabs. Both tabs share
+ * the SAME income state, so changing it updates both screens. Not saved
+ * anywhere yet (resets on app restart), fine until the real Income table lands.
+ */
+@Composable
+fun IncomeInputField(incomeText: String, onIncomeChange: (String) -> Unit, hint: String?) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 20.dp, vertical = 8.dp)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(Color.White, RoundedCornerShape(16.dp))
+                .padding(horizontal = 16.dp, vertical = 4.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Text("Monthly income  ₹", fontSize = 14.sp, color = Color.Gray)
+            OutlinedTextField(
+                value = incomeText,
+                onValueChange = { new -> if (new.length <= 9 && new.all { it.isDigit() }) onIncomeChange(new) },
+                modifier = Modifier.weight(1f),
+                singleLine = true,
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number, imeAction = ImeAction.Done),
+                colors = OutlinedTextFieldDefaults.colors(
+                    unfocusedBorderColor = Color.Transparent,
+                    focusedBorderColor = Color(0xFF7FA99B)
+                )
+            )
+        }
+        if (hint != null) {
+            Spacer(Modifier.height(4.dp))
+            Text(hint, fontSize = 12.sp, color = Color(0xFF7FA99B))
+        }
     }
 }
 
