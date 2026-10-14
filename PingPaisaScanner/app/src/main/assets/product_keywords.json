@@ -1,0 +1,1197 @@
+{
+ "_comment": "Product-type keywords -> (category, subcategory) from the dataset taxonomy. Rules whose pair is not in india_expense_categorization_dataset.json are ignored at load. Edit freely.",
+ "rules": [
+  {
+   "category": "Shopping",
+   "subcategory": "Footwear",
+   "weight": 1.0,
+   "keywords": [
+    "shoe",
+    "sneaker",
+    "sandal",
+    "slipper",
+    "flip flop",
+    "boot",
+    "loafer",
+    "heels",
+    "footwear",
+    "crocs",
+    "running shoe",
+    "sports shoe",
+    "formal shoe",
+    "chappal"
+   ]
+  },
+  {
+   "category": "Shopping",
+   "subcategory": "Clothing/Fashion",
+   "weight": 1.0,
+   "keywords": [
+    "t-shirt",
+    "tshirt",
+    "shirt",
+    "jeans",
+    "trouser",
+    "kurta",
+    "kurti",
+    "saree",
+    "dress",
+    "jacket",
+    "hoodie",
+    "sweater",
+    "sweatshirt",
+    "shorts",
+    "skirt",
+    "leggings",
+    "lehenga",
+    "blazer",
+    "jersey",
+    "innerwear",
+    "socks",
+    "track pants",
+    "joggers",
+    "apparel",
+    "clothing",
+    "garment",
+    "denim",
+    "tracksuit",
+    "pyjama",
+    "nightwear",
+    "dupatta",
+    "sherwani"
+   ]
+  },
+  {
+   "category": "Shopping",
+   "subcategory": "Electronics/Gadgets",
+   "weight": 1.0,
+   "keywords": [
+    "phone",
+    "smartphone",
+    "mobile phone",
+    "iphone",
+    "laptop",
+    "tablet pc",
+    "ipad",
+    "headphone",
+    "earphone",
+    "earbuds",
+    "airpods",
+    "neckband",
+    "bluetooth speaker",
+    "speaker",
+    "soundbar",
+    "smartwatch",
+    "smart watch",
+    "fitness band",
+    "camera",
+    "dslr",
+    "gopro",
+    "television",
+    "led tv",
+    "smart tv",
+    "tv",
+    "monitor",
+    "keyboard",
+    "mouse",
+    "printer",
+    "router",
+    "power bank",
+    "charger",
+    "usb cable",
+    "pendrive",
+    "pen drive",
+    "ssd",
+    "hard disk",
+    "memory card",
+    "playstation",
+    "ps5",
+    "xbox",
+    "nintendo",
+    "gaming console",
+    "drone",
+    "projector",
+    "refrigerator",
+    "fridge",
+    "washing machine",
+    "microwave",
+    "air conditioner",
+    "air fryer",
+    "mixer grinder",
+    "vacuum cleaner",
+    "water heater",
+    "geyser",
+    "ceiling fan",
+    "air cooler",
+    "electric kettle",
+    "induction cooktop",
+    "trimmer",
+    "hair dryer",
+    "tws",
+    "webcam",
+    "microphone",
+    "smart bulb",
+    "cctv",
+    "e-reader",
+    "kindle"
+   ]
+  },
+  {
+   "category": "Shopping",
+   "subcategory": "Books/Stationery",
+   "weight": 1.0,
+   "keywords": [
+    "book",
+    "novel",
+    "paperback",
+    "hardcover",
+    "magazine",
+    "comic",
+    "cookbook",
+    "biography"
+   ]
+  },
+  {
+   "category": "Shopping",
+   "subcategory": "Home & Furniture",
+   "weight": 1.0,
+   "keywords": [
+    "sofa",
+    "mattress",
+    "wardrobe",
+    "bookshelf",
+    "shelf",
+    "curtain",
+    "bedsheet",
+    "pillow",
+    "blanket",
+    "lamp",
+    "rug",
+    "carpet",
+    "cushion",
+    "furniture",
+    "cookware",
+    "utensil",
+    "dinner set",
+    "dining table",
+    "study table",
+    "office chair",
+    "bed frame",
+    "cabinet",
+    "home decor",
+    "wall art",
+    "bean bag",
+    "lunch box",
+    "water bottle",
+    "frying pan",
+    "pressure cooker",
+    "kadhai"
+   ]
+  },
+  {
+   "category": "Shopping",
+   "subcategory": "Beauty/Cosmetics",
+   "weight": 1.0,
+   "keywords": [
+    "lipstick",
+    "makeup",
+    "make up",
+    "foundation",
+    "mascara",
+    "eyeliner",
+    "perfume",
+    "deodorant",
+    "shampoo",
+    "conditioner",
+    "moisturizer",
+    "moisturiser",
+    "sunscreen",
+    "serum",
+    "face wash",
+    "lotion",
+    "nail polish",
+    "skincare",
+    "kajal",
+    "fragrance",
+    "body wash",
+    "face mask",
+    "hair oil",
+    "hair serum",
+    "compact powder",
+    "lip balm",
+    "cosmetic"
+   ]
+  },
+  {
+   "category": "Shopping",
+   "subcategory": "Jewelry/Accessories",
+   "weight": 0.9,
+   "keywords": [
+    "necklace",
+    "bracelet",
+    "earring",
+    "pendant",
+    "gold",
+    "silver",
+    "diamond",
+    "jewellery",
+    "jewelry",
+    "bangle",
+    "wallet",
+    "belt",
+    "handbag",
+    "purse",
+    "backpack",
+    "sunglasses",
+    "wristwatch",
+    "watch",
+    "tote bag",
+    "laptop bag",
+    "ring"
+   ]
+  },
+  {
+   "category": "Shopping",
+   "subcategory": "General/Department Store",
+   "weight": 1.0,
+   "keywords": [
+    "toy",
+    "lego",
+    "board game",
+    "baby",
+    "stroller",
+    "diaper",
+    "soft toy",
+    "action figure",
+    "puzzle"
+   ]
+  },
+  {
+   "category": "Grocery",
+   "subcategory": "Supermarket",
+   "weight": 1.0,
+   "keywords": [
+    "rice",
+    "atta",
+    "flour",
+    "dal",
+    "cooking oil",
+    "sugar",
+    "salt",
+    "tea",
+    "biscuit",
+    "chips",
+    "snack",
+    "noodles",
+    "milk",
+    "bread",
+    "butter",
+    "cheese",
+    "egg",
+    "vegetable",
+    "fruit",
+    "grocery",
+    "spices",
+    "masala",
+    "juice",
+    "cereal",
+    "oats",
+    "chocolate",
+    "detergent",
+    "soap",
+    "toothpaste",
+    "tissue paper",
+    "sanitizer",
+    "ghee",
+    "pasta",
+    "ketchup",
+    "namkeen",
+    "cornflakes",
+    "dry fruits",
+    "almonds",
+    "cashew",
+    "honey",
+    "coffee powder",
+    "instant coffee",
+    "maggi"
+   ]
+  },
+  {
+   "category": "Stationary/Office Supplies",
+   "subcategory": "Office Supplies",
+   "weight": 0.85,
+   "keywords": [
+    "pen",
+    "pencil",
+    "notebook",
+    "stapler",
+    "marker",
+    "highlighter",
+    "file folder",
+    "diary",
+    "planner",
+    "sticky notes",
+    "envelope",
+    "calculator",
+    "ink cartridge",
+    "paper ream",
+    "a4 paper",
+    "glue stick",
+    "whiteboard",
+    "clipboard",
+    "register"
+   ]
+  },
+  {
+   "category": "Stationary/Office Supplies",
+   "subcategory": "Art Supplies",
+   "weight": 1.0,
+   "keywords": [
+    "paint",
+    "paint brush",
+    "canvas",
+    "sketchbook",
+    "crayon",
+    "watercolour",
+    "watercolor",
+    "colour pencil",
+    "color pencil",
+    "clay",
+    "acrylic colour",
+    "drawing book"
+   ]
+  },
+  {
+   "category": "Health/Medical",
+   "subcategory": "Pharmacy",
+   "weight": 1.0,
+   "keywords": [
+    "medicine",
+    "capsule",
+    "syrup",
+    "ointment",
+    "paracetamol",
+    "vitamin",
+    "supplement",
+    "bandage",
+    "thermometer",
+    "glucometer",
+    "n95",
+    "first aid",
+    "multivitamin",
+    "whey protein",
+    "protein powder",
+    "pulse oximeter",
+    "bp monitor",
+    "inhaler",
+    "sanitary pad",
+    "omega 3"
+   ]
+  },
+  {
+   "category": "Health/Medical",
+   "subcategory": "Fitness/Gym",
+   "weight": 1.0,
+   "keywords": [
+    "gym",
+    "dumbbell",
+    "treadmill",
+    "yoga mat",
+    "kettlebell",
+    "resistance band",
+    "protein shaker",
+    "exercise bike",
+    "skipping rope",
+    "fitness equipment",
+    "gym membership",
+    "weight plate",
+    "pull up bar"
+   ]
+  },
+  {
+   "category": "Health/Medical",
+   "subcategory": "Wellness/Spa",
+   "weight": 1.0,
+   "keywords": [
+    "massager",
+    "massage gun",
+    "massage chair",
+    "aromatherapy",
+    "essential oil",
+    "diffuser"
+   ]
+  },
+  {
+   "category": "Health/Medical",
+   "subcategory": "Diagnostic Lab",
+   "weight": 1.0,
+   "keywords": [
+    "blood test",
+    "lab test",
+    "health checkup",
+    "full body checkup"
+   ]
+  },
+  {
+   "category": "Entertainment",
+   "subcategory": "Gaming",
+   "weight": 0.8,
+   "keywords": [
+    "video game",
+    "game voucher",
+    "steam wallet",
+    "game pass",
+    "gaming"
+   ]
+  },
+  {
+   "category": "Entertainment",
+   "subcategory": "Events & Ticketing",
+   "weight": 0.8,
+   "keywords": [
+    "ticket",
+    "concert",
+    "event pass",
+    "festival pass",
+    "stand up show"
+   ]
+  },
+  {
+   "category": "Entertainment",
+   "subcategory": "Movies/Cinema",
+   "weight": 1.0,
+   "keywords": [
+    "movie ticket",
+    "cinema"
+   ]
+  },
+  {
+   "category": "Entertainment",
+   "subcategory": "Amusement/Theme Park",
+   "weight": 1.0,
+   "keywords": [
+    "theme park",
+    "water park",
+    "amusement park"
+   ]
+  },
+  {
+   "category": "Digital Subscriptions & Software",
+   "subcategory": "Video Streaming",
+   "weight": 1.0,
+   "keywords": [
+    "netflix",
+    "prime video",
+    "hotstar",
+    "disney",
+    "sonyliv",
+    "zee5",
+    "jiocinema",
+    "video subscription"
+   ]
+  },
+  {
+   "category": "Digital Subscriptions & Software",
+   "subcategory": "Music Streaming",
+   "weight": 1.0,
+   "keywords": [
+    "spotify",
+    "gaana",
+    "jiosaavn",
+    "apple music",
+    "youtube music",
+    "music subscription"
+   ]
+  },
+  {
+   "category": "Digital Subscriptions & Software",
+   "subcategory": "Cloud Storage/SaaS",
+   "weight": 1.0,
+   "keywords": [
+    "google one",
+    "icloud",
+    "dropbox",
+    "cloud storage",
+    "web hosting",
+    "domain name"
+   ]
+  },
+  {
+   "category": "Digital Subscriptions & Software",
+   "subcategory": "Productivity Software",
+   "weight": 1.0,
+   "keywords": [
+    "microsoft 365",
+    "office 365",
+    "antivirus",
+    "license key",
+    "software license",
+    "adobe",
+    "photoshop"
+   ]
+  },
+  {
+   "category": "Digital Subscriptions & Software",
+   "subcategory": "AI Tools",
+   "weight": 1.0,
+   "keywords": [
+    "chatgpt",
+    "claude pro",
+    "copilot",
+    "gemini advanced",
+    "midjourney",
+    "ai subscription"
+   ]
+  },
+  {
+   "category": "Digital Subscriptions & Software",
+   "subcategory": "News/Reading/Audiobooks",
+   "weight": 1.0,
+   "keywords": [
+    "audible",
+    "kindle unlimited",
+    "newspaper subscription",
+    "audiobook"
+   ]
+  },
+  {
+   "category": "Digital Subscriptions & Software",
+   "subcategory": "App Store/Digital Purchase",
+   "weight": 1.0,
+   "keywords": [
+    "google play",
+    "app store",
+    "in app purchase"
+   ]
+  },
+  {
+   "category": "Education",
+   "subcategory": "Online Courses/EdTech",
+   "weight": 1.0,
+   "keywords": [
+    "online course",
+    "udemy",
+    "coursera",
+    "byju",
+    "unacademy",
+    "bootcamp",
+    "certification",
+    "online class",
+    "edtech"
+   ]
+  },
+  {
+   "category": "Education",
+   "subcategory": "Books & Study Material",
+   "weight": 1.1,
+   "keywords": [
+    "study material",
+    "textbook",
+    "guide book",
+    "exam prep",
+    "ncert",
+    "jee",
+    "neet",
+    "gate exam",
+    "upsc",
+    "previous year papers",
+    "question bank"
+   ]
+  },
+  {
+   "category": "Education",
+   "subcategory": "Coaching/Tuition",
+   "weight": 1.0,
+   "keywords": [
+    "coaching",
+    "tuition"
+   ]
+  },
+  {
+   "category": "Education",
+   "subcategory": "School/College Fees",
+   "weight": 1.0,
+   "keywords": [
+    "school fee",
+    "college fee",
+    "semester fee",
+    "admission fee",
+    "exam fee"
+   ]
+  },
+  {
+   "category": "Travel",
+   "subcategory": "Airplane",
+   "weight": 1.0,
+   "keywords": [
+    "flight",
+    "airline",
+    "boarding pass",
+    "air ticket"
+   ]
+  },
+  {
+   "category": "Travel",
+   "subcategory": "Train",
+   "weight": 1.0,
+   "keywords": [
+    "train ticket",
+    "railway ticket",
+    "irctc"
+   ]
+  },
+  {
+   "category": "Travel",
+   "subcategory": "Bus",
+   "weight": 1.0,
+   "keywords": [
+    "bus ticket",
+    "bus pass"
+   ]
+  },
+  {
+   "category": "Travel",
+   "subcategory": "Cab/Ride-hailing",
+   "weight": 1.0,
+   "keywords": [
+    "cab ride",
+    "taxi"
+   ]
+  },
+  {
+   "category": "Travel",
+   "subcategory": "Fuel/Petrol-Diesel",
+   "weight": 1.0,
+   "keywords": [
+    "petrol",
+    "diesel"
+   ]
+  },
+  {
+   "category": "Travel",
+   "subcategory": "EV Charging",
+   "weight": 1.0,
+   "keywords": [
+    "ev charging",
+    "charging session"
+   ]
+  },
+  {
+   "category": "Travel",
+   "subcategory": "Car Rental/Self-drive",
+   "weight": 1.0,
+   "keywords": [
+    "car rental",
+    "self drive"
+   ]
+  },
+  {
+   "category": "Travel",
+   "subcategory": "Toll/FASTag",
+   "weight": 1.0,
+   "keywords": [
+    "fastag",
+    "toll"
+   ]
+  },
+  {
+   "category": "Stay/Accommodation",
+   "subcategory": "Hotel",
+   "weight": 1.0,
+   "keywords": [
+    "hotel",
+    "room booking",
+    "guest house"
+   ]
+  },
+  {
+   "category": "Stay/Accommodation",
+   "subcategory": "Resort",
+   "weight": 1.0,
+   "keywords": [
+    "resort"
+   ]
+  },
+  {
+   "category": "Stay/Accommodation",
+   "subcategory": "Hostel/Budget Stay",
+   "weight": 1.0,
+   "keywords": [
+    "hostel",
+    "dormitory"
+   ]
+  },
+  {
+   "category": "Stay/Accommodation",
+   "subcategory": "Homestay/Vacation Rental",
+   "weight": 1.0,
+   "keywords": [
+    "homestay",
+    "villa",
+    "airbnb",
+    "vacation rental"
+   ]
+  },
+  {
+   "category": "Automobile",
+   "subcategory": "Vehicle Service/Repair",
+   "weight": 1.0,
+   "keywords": [
+    "tyre",
+    "tire",
+    "car accessories",
+    "seat cover",
+    "engine oil",
+    "dashcam",
+    "car battery",
+    "car cover",
+    "wiper",
+    "brake pad",
+    "car perfume",
+    "car vacuum",
+    "spare part"
+   ]
+  },
+  {
+   "category": "Automobile",
+   "subcategory": "Two-Wheeler Service",
+   "weight": 1.0,
+   "keywords": [
+    "helmet",
+    "bike accessories",
+    "bike cover",
+    "riding gloves",
+    "chain lube"
+   ]
+  },
+  {
+   "category": "Automobile",
+   "subcategory": "Vehicle Purchase/EMI",
+   "weight": 1.0,
+   "keywords": [
+    "motorcycle",
+    "scooter",
+    "electric scooter",
+    "hatchback",
+    "suv",
+    "sedan",
+    "new car"
+   ]
+  },
+  {
+   "category": "Automobile",
+   "subcategory": "Vehicle Insurance",
+   "weight": 1.0,
+   "keywords": [
+    "car insurance",
+    "bike insurance",
+    "vehicle insurance"
+   ]
+  },
+  {
+   "category": "Personal Care",
+   "subcategory": "Salon/Barber",
+   "weight": 1.0,
+   "keywords": [
+    "haircut",
+    "salon",
+    "barber",
+    "beard grooming"
+   ]
+  },
+  {
+   "category": "Personal Care",
+   "subcategory": "Spa",
+   "weight": 1.0,
+   "keywords": [
+    "spa session",
+    "body massage"
+   ]
+  },
+  {
+   "category": "Personal Care",
+   "subcategory": "Cosmetic Services",
+   "weight": 1.0,
+   "keywords": [
+    "facial",
+    "hair spa",
+    "waxing",
+    "manicure",
+    "pedicure"
+   ]
+  },
+  {
+   "category": "Home Services",
+   "subcategory": "Cleaning/Maid",
+   "weight": 1.0,
+   "keywords": [
+    "home cleaning",
+    "deep cleaning",
+    "maid",
+    "sofa cleaning"
+   ]
+  },
+  {
+   "category": "Home Services",
+   "subcategory": "Electrician/Plumber",
+   "weight": 1.0,
+   "keywords": [
+    "electrician",
+    "plumber",
+    "plumbing"
+   ]
+  },
+  {
+   "category": "Home Services",
+   "subcategory": "Pest Control",
+   "weight": 1.0,
+   "keywords": [
+    "pest control",
+    "termite"
+   ]
+  },
+  {
+   "category": "Home Services",
+   "subcategory": "Moving/Packers",
+   "weight": 1.0,
+   "keywords": [
+    "packers",
+    "movers",
+    "relocation"
+   ]
+  },
+  {
+   "category": "Home Services",
+   "subcategory": "Repair & Maintenance",
+   "weight": 1.0,
+   "keywords": [
+    "ac service",
+    "appliance repair",
+    "painting service"
+   ]
+  },
+  {
+   "category": "Utilities & Bills",
+   "subcategory": "Mobile Recharge/Postpaid",
+   "weight": 1.0,
+   "keywords": [
+    "mobile recharge",
+    "prepaid recharge",
+    "postpaid bill",
+    "data pack"
+   ]
+  },
+  {
+   "category": "Utilities & Bills",
+   "subcategory": "Broadband/Internet",
+   "weight": 1.0,
+   "keywords": [
+    "broadband",
+    "wifi plan",
+    "fibre plan",
+    "internet plan"
+   ]
+  },
+  {
+   "category": "Utilities & Bills",
+   "subcategory": "DTH/Cable",
+   "weight": 1.0,
+   "keywords": [
+    "dth",
+    "set top box",
+    "dish tv",
+    "tata play"
+   ]
+  },
+  {
+   "category": "Utilities & Bills",
+   "subcategory": "Electricity",
+   "weight": 1.0,
+   "keywords": [
+    "electricity bill",
+    "power bill"
+   ]
+  },
+  {
+   "category": "Utilities & Bills",
+   "subcategory": "Water",
+   "weight": 1.0,
+   "keywords": [
+    "water bill"
+   ]
+  },
+  {
+   "category": "Utilities & Bills",
+   "subcategory": "Gas",
+   "weight": 1.0,
+   "keywords": [
+    "gas cylinder",
+    "lpg",
+    "png bill"
+   ]
+  },
+  {
+   "category": "Financial Services",
+   "subcategory": "Insurance",
+   "weight": 1.0,
+   "keywords": [
+    "insurance",
+    "premium",
+    "life cover",
+    "term plan"
+   ]
+  },
+  {
+   "category": "Financial Services",
+   "subcategory": "Investment/Trading",
+   "weight": 1.0,
+   "keywords": [
+    "mutual fund",
+    "sip",
+    "stocks",
+    "demat",
+    "gold coin",
+    "digital gold"
+   ]
+  },
+  {
+   "category": "Financial Services",
+   "subcategory": "Loan/EMI",
+   "weight": 1.0,
+   "keywords": [
+    "loan",
+    "emi payment"
+   ]
+  },
+  {
+   "category": "Financial Services",
+   "subcategory": "Banking/Card Fees",
+   "weight": 1.0,
+   "keywords": [
+    "credit card fee",
+    "annual fee",
+    "bank charges"
+   ]
+  },
+  {
+   "category": "Financial Services",
+   "subcategory": "Digital Wallet Load",
+   "weight": 1.0,
+   "keywords": [
+    "wallet top up",
+    "wallet load"
+   ]
+  },
+  {
+   "category": "Food & Dining",
+   "subcategory": "Restaurant",
+   "weight": 1.0,
+   "keywords": [
+    "restaurant",
+    "thali",
+    "biryani",
+    "buffet",
+    "dinner",
+    "lunch combo",
+    "meal combo"
+   ]
+  },
+  {
+   "category": "Food & Dining",
+   "subcategory": "Fast Food/QSR",
+   "weight": 1.0,
+   "keywords": [
+    "pizza",
+    "burger",
+    "fries",
+    "sandwich",
+    "momos",
+    "wrap",
+    "fried chicken",
+    "combo meal"
+   ]
+  },
+  {
+   "category": "Food & Dining",
+   "subcategory": "Cafe & Coffee",
+   "weight": 0.7,
+   "keywords": [
+    "latte",
+    "cappuccino",
+    "espresso",
+    "frappe",
+    "cold brew",
+    "coffee",
+    "chai",
+    "tea house"
+   ]
+  },
+  {
+   "category": "Food & Dining",
+   "subcategory": "Bakery/Sweets",
+   "weight": 1.0,
+   "keywords": [
+    "cake",
+    "cupcake",
+    "pastry",
+    "mithai",
+    "sweets",
+    "brownie",
+    "cookies",
+    "ice cream",
+    "donut",
+    "laddoo",
+    "gulab jamun"
+   ]
+  },
+  {
+   "category": "Food & Dining",
+   "subcategory": "Bar/Pub/Lounge",
+   "weight": 1.0,
+   "keywords": [
+    "beer",
+    "whisky",
+    "whiskey",
+    "vodka",
+    "wine",
+    "cocktail",
+    "brewpub"
+   ]
+  },
+  {
+   "category": "Food & Dining",
+   "subcategory": "Food Delivery",
+   "weight": 0.8,
+   "keywords": [
+    "food delivery",
+    "delivery fee",
+    "order food"
+   ]
+  },
+  {
+   "category": "Logistics & Courier",
+   "subcategory": "Domestic Courier",
+   "weight": 0.8,
+   "keywords": [
+    "courier",
+    "parcel",
+    "speed post"
+   ]
+  },
+  {
+   "category": "Logistics & Courier",
+   "subcategory": "International Courier",
+   "weight": 1.0,
+   "keywords": [
+    "international courier",
+    "international shipping"
+   ]
+  },
+  {
+   "category": "Miscellaneous",
+   "subcategory": "Gifting",
+   "weight": 0.9,
+   "keywords": [
+    "gift",
+    "gift card",
+    "gift hamper",
+    "hamper",
+    "voucher",
+    "bouquet",
+    "flowers",
+    "greeting card",
+    "gift box"
+   ]
+  },
+  {
+   "category": "Miscellaneous",
+   "subcategory": "Pet Care",
+   "weight": 1.0,
+   "keywords": [
+    "pet food",
+    "dog food",
+    "cat food",
+    "dog",
+    "cat litter",
+    "leash",
+    "aquarium",
+    "pet",
+    "pet bed",
+    "dog collar"
+   ]
+  },
+  {
+   "category": "Miscellaneous",
+   "subcategory": "Donation/Charity",
+   "weight": 1.0,
+   "keywords": [
+    "donation",
+    "charity",
+    "ngo",
+    "fundraiser"
+   ]
+  }
+ ],
+ "brands": [
+  "Apple",
+  "Samsung",
+  "OnePlus",
+  "Realme",
+  "Redmi",
+  "Xiaomi",
+  "Poco",
+  "Oppo",
+  "Vivo",
+  "Motorola",
+  "Nothing",
+  "Google Pixel",
+  "Sony",
+  "JBL",
+  "boAt",
+  "Noise",
+  "Fire-Boltt",
+  "Bose",
+  "Sennheiser",
+  "Lenovo",
+  "HP",
+  "Dell",
+  "Asus",
+  "Acer",
+  "MSI",
+  "LG",
+  "Philips",
+  "Panasonic",
+  "Whirlpool",
+  "Havells",
+  "Bajaj",
+  "Prestige",
+  "Canon",
+  "Nikon",
+  "Logitech",
+  "Mi",
+  "Amazfit",
+  "Garmin",
+  "Fastrack",
+  "Casio",
+  "Wildcraft",
+  "Skybags",
+  "American Tourister",
+  "Nivea",
+  "Lakme",
+  "Maybelline",
+  "Dove",
+  "Himalaya",
+  "Mamaearth",
+  "Wow",
+  "Puma",
+  "Nike",
+  "Adidas",
+  "Reebok",
+  "Skechers",
+  "Campus",
+  "Bata",
+  "Levis",
+  "Zara",
+  "Uniqlo"
+ ]
+}

@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- scan brackets -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3.5" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M32,44 L32,38 Q32,32 38,32 L44,32"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3.5" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M64,32 L70,32 Q76,32 76,38 L76,44"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3.5" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M76,64 L76,70 Q76,76 70,76 L64,76"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3.5" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M44,76 L38,76 Q32,76 32,70 L32,64"/>
+    <!-- rupee glyph -->
+    <path android:strokeColor="#BFE8A8" android:strokeWidth="3.5" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M45,43 L63,43 M45,50 L63,50 M45,43 L50,43 Q58,43 58,50 Q58,57 50,57 L45,57 L61,70"/>
+</vector>

@@ -1,0 +1,7 @@
+## Copy this file to local.properties (it is git-ignored). Android Studio creates sdk.dir for you.
+## sdk.dir=/path/to/Android/sdk
+
+## OPTIONAL - turns on Gemini-assisted product naming/categorisation for photos.
+## Leave blank to use only on-device OCR + image labels + your JSON dataset.
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-2.5-flash

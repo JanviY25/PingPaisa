@@ -1,0 +1,4972 @@
+{
+  "categories": [
+    {
+      "category": "Food & Dining",
+      "subcategories": [
+        "Restaurant",
+        "Fast Food/QSR",
+        "Cafe & Coffee",
+        "Food Delivery",
+        "Bakery/Sweets",
+        "Street Food",
+        "Bar/Pub/Lounge"
+      ]
+    },
+    {
+      "category": "Grocery",
+      "subcategories": [
+        "Supermarket",
+        "Online Grocery/Quick Commerce",
+        "Local Kirana",
+        "Wholesale/Bulk"
+      ]
+    },
+    {
+      "category": "Shopping",
+      "subcategories": [
+        "Clothing/Fashion",
+        "Footwear",
+        "Electronics/Gadgets",
+        "Books/Stationery",
+        "Home & Furniture",
+        "Beauty/Cosmetics",
+        "Jewelry/Accessories",
+        "General/Department Store",
+        "Online Marketplace"
+      ]
+    },
+    {
+      "category": "Travel",
+      "subcategories": [
+        "Airplane",
+        "Train",
+        "Bus",
+        "Cab/Ride-hailing",
+        "Metro",
+        "Car Rental/Self-drive",
+        "Fuel/Petrol-Diesel",
+        "EV Charging",
+        "Parking",
+        "Toll/FASTag"
+      ]
+    },
+    {
+      "category": "Stay/Accommodation",
+      "subcategories": [
+        "Hotel",
+        "Hostel/Budget Stay",
+        "Homestay/Vacation Rental",
+        "Resort"
+      ]
+    },
+    {
+      "category": "Entertainment",
+      "subcategories": [
+        "Movies/Cinema",
+        "Amusement/Theme Park",
+        "Gaming",
+        "Events & Ticketing",
+        "Adventure/Sports Activity"
+      ]
+    },
+    {
+      "category": "Digital Subscriptions & Software",
+      "subcategories": [
+        "Video Streaming",
+        "Music Streaming",
+        "Cloud Storage/SaaS",
+        "Productivity Software",
+        "AI Tools",
+        "News/Reading/Audiobooks",
+        "App Store/Digital Purchase"
+      ]
+    },
+    {
+      "category": "Logistics & Courier",
+      "subcategories": [
+        "Domestic Courier",
+        "International Courier",
+        "Postal Service"
+      ]
+    },
+    {
+      "category": "Automobile",
+      "subcategories": [
+        "Vehicle Service/Repair",
+        "Vehicle Purchase/EMI",
+        "Two-Wheeler Service",
+        "Vehicle Insurance"
+      ]
+    },
+    {
+      "category": "Health/Medical",
+      "subcategories": [
+        "Pharmacy",
+        "Hospital/Clinic",
+        "Diagnostic Lab",
+        "Fitness/Gym",
+        "Wellness/Spa",
+        "Telemedicine"
+      ]
+    },
+    {
+      "category": "Utilities & Bills",
+      "subcategories": [
+        "Electricity",
+        "Water",
+        "Gas",
+        "Mobile Recharge/Postpaid",
+        "Broadband/Internet",
+        "DTH/Cable"
+      ]
+    },
+    {
+      "category": "Education",
+      "subcategories": [
+        "School/College Fees",
+        "Online Courses/EdTech",
+        "Coaching/Tuition",
+        "Books & Study Material"
+      ]
+    },
+    {
+      "category": "Financial Services",
+      "subcategories": [
+        "Insurance",
+        "Investment/Trading",
+        "Loan/EMI",
+        "Banking/Card Fees",
+        "Digital Wallet Load"
+      ]
+    },
+    {
+      "category": "Personal Care",
+      "subcategories": [
+        "Salon/Barber",
+        "Spa",
+        "Cosmetic Services"
+      ]
+    },
+    {
+      "category": "Stationary/Office Supplies",
+      "subcategories": [
+        "Office Supplies",
+        "Printing/Xerox",
+        "Art Supplies"
+      ]
+    },
+    {
+      "category": "Home Services",
+      "subcategories": [
+        "Cleaning/Maid",
+        "Repair & Maintenance",
+        "Electrician/Plumber",
+        "Pest Control",
+        "Moving/Packers"
+      ]
+    },
+    {
+      "category": "Transfers",
+      "subcategories": [
+        "UPI P2P",
+        "Wallet Transfer",
+        "Rent Payment"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "subcategories": [
+        "Donation/Charity",
+        "Pet Care",
+        "Gifting",
+        "Uncategorized"
+      ]
+    }
+  ],
+  "merchants": [
+    {
+      "name": "Zomato",
+      "aliases": [
+        "ZOMATO",
+        "ZOMATO LTD",
+        "ZOMATO ONLINE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Food Delivery",
+      "type": "Online"
+    },
+    {
+      "name": "Swiggy",
+      "aliases": [
+        "SWIGGY",
+        "BUNDL TECHNOLOGIES",
+        "SWIGGY LTD"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Food Delivery",
+      "type": "Online"
+    },
+    {
+      "name": "Swiggy Instamart",
+      "aliases": [
+        "SWIGGY INSTAMART",
+        "INSTAMART"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "McDonald's",
+      "aliases": [
+        "MCDONALDS",
+        "MCD",
+        "HARDCASTLE RESTAURANTS",
+        "WESTLIFE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "Burger King",
+      "aliases": [
+        "BURGER KING",
+        "BURGERKING",
+        "BK INDIA"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "Burger Singh",
+      "aliases": [
+        "BURGER SINGH",
+        "BIG BURGER SINGH"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "KFC",
+      "aliases": [
+        "KFC",
+        "KENTUCKY FRIED CHICKEN",
+        "DEVYANI INTERNATIONAL"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "Domino's Pizza",
+      "aliases": [
+        "DOMINOS",
+        "DOMINO'S",
+        "JUBILANT FOODWORKS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "Pizza Hut",
+      "aliases": [
+        "PIZZA HUT",
+        "PIZZAHUT"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "Subway",
+      "aliases": [
+        "SUBWAY"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "Starbucks",
+      "aliases": [
+        "STARBUCKS",
+        "TATA STARBUCKS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Cafe & Coffee",
+      "type": "Offline"
+    },
+    {
+      "name": "Cafe Coffee Day",
+      "aliases": [
+        "CAFE COFFEE DAY",
+        "CCD"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Cafe & Coffee",
+      "type": "Offline"
+    },
+    {
+      "name": "Barista",
+      "aliases": [
+        "BARISTA",
+        "BARISTA COFFEE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Cafe & Coffee",
+      "type": "Offline"
+    },
+    {
+      "name": "Chaayos",
+      "aliases": [
+        "CHAAYOS",
+        "SUNSHINE TEAHOUSE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Cafe & Coffee",
+      "type": "Offline"
+    },
+    {
+      "name": "Third Wave Coffee",
+      "aliases": [
+        "THIRD WAVE COFFEE",
+        "THIRD WAVE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Cafe & Coffee",
+      "type": "Offline"
+    },
+    {
+      "name": "Blue Tokai Coffee",
+      "aliases": [
+        "BLUE TOKAI"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Cafe & Coffee",
+      "type": "Offline"
+    },
+    {
+      "name": "Haldiram's",
+      "aliases": [
+        "HALDIRAM",
+        "HALDIRAMS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Bikanervala",
+      "aliases": [
+        "BIKANERVALA",
+        "BIKANER SWEETS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Wow! Momo",
+      "aliases": [
+        "WOW MOMO",
+        "WOWMOMO"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "Behrouz Biryani",
+      "aliases": [
+        "BEHROUZ BIRYANI"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Online"
+    },
+    {
+      "name": "Faasos",
+      "aliases": [
+        "FAASOS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Online"
+    },
+    {
+      "name": "Oven Story",
+      "aliases": [
+        "OVEN STORY",
+        "OVENSTORY PIZZA"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Online"
+    },
+    {
+      "name": "Theobroma",
+      "aliases": [
+        "THEOBROMA",
+        "THEOBROMA PATISSERIE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Monginis",
+      "aliases": [
+        "MONGINIS",
+        "MONGINIS CAKE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Karachi Bakery",
+      "aliases": [
+        "KARACHI BAKERY"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Baskin Robbins",
+      "aliases": [
+        "BASKIN ROBBINS",
+        "BASKIN-ROBBINS",
+        "GRAVISS FOODS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Naturals Ice Cream",
+      "aliases": [
+        "NATURALS ICE CREAM",
+        "NATURAL ICE CREAM"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Social",
+      "aliases": [
+        "SOCIAL",
+        "IMPRESARIO",
+        "HAUZ KHAS SOCIAL"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bar/Pub/Lounge",
+      "type": "Offline"
+    },
+    {
+      "name": "Toit Brewpub",
+      "aliases": [
+        "TOIT",
+        "TOIT BREWPUB"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bar/Pub/Lounge",
+      "type": "Offline"
+    },
+    {
+      "name": "Sula Vineyards",
+      "aliases": [
+        "SULA",
+        "SULA VINEYARDS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bar/Pub/Lounge",
+      "type": "Offline"
+    },
+    {
+      "name": "EatSure",
+      "aliases": [
+        "EATSURE",
+        "REBEL FOODS EATSURE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Food Delivery",
+      "type": "Online"
+    },
+    {
+      "name": "Box8",
+      "aliases": [
+        "BOX8",
+        "BOX 8"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Food Delivery",
+      "type": "Online"
+    },
+    {
+      "name": "Freshmenu",
+      "aliases": [
+        "FRESHMENU"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Food Delivery",
+      "type": "Online"
+    },
+    {
+      "name": "BigBasket",
+      "aliases": [
+        "BIGBASKET",
+        "BIG BASKET",
+        "SUPERMARKET GROCERY SUPPLIES"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "Blinkit",
+      "aliases": [
+        "BLINKIT",
+        "GROFERS",
+        "GROFERS INDIA"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "Zepto",
+      "aliases": [
+        "ZEPTO",
+        "ZEPTO MARKETPLACE",
+        "KIRANAKART"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "JioMart",
+      "aliases": [
+        "JIOMART",
+        "RELIANCE JIOMART",
+        "JIO MART"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "DMart",
+      "aliases": [
+        "DMART",
+        "D MART",
+        "AVENUE SUPERMARTS"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Reliance Fresh",
+      "aliases": [
+        "RELIANCE FRESH",
+        "RELIANCE RETAIL"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Reliance Smart",
+      "aliases": [
+        "RELIANCE SMART",
+        "RELIANCE SMART BAZAAR"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "More Supermarket",
+      "aliases": [
+        "MORE SUPERMARKET",
+        "MORE RETAIL",
+        "ADITYA BIRLA MORE"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Spencer's Retail",
+      "aliases": [
+        "SPENCERS",
+        "SPENCER'S RETAIL"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Nature's Basket",
+      "aliases": [
+        "NATURES BASKET",
+        "NATURE'S BASKET"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Star Bazaar",
+      "aliases": [
+        "STAR BAZAAR",
+        "TATA STAR BAZAAR"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Metro Cash & Carry",
+      "aliases": [
+        "METRO CASH AND CARRY",
+        "METRO CASH & CARRY"
+      ],
+      "category": "Grocery",
+      "subcategory": "Wholesale/Bulk",
+      "type": "Offline"
+    },
+    {
+      "name": "Vishal Mega Mart",
+      "aliases": [
+        "VISHAL MEGA MART"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Local Kirana Store",
+      "aliases": [
+        "KIRANA",
+        "GENERAL STORE"
+      ],
+      "category": "Grocery",
+      "subcategory": "Local Kirana",
+      "type": "Offline"
+    },
+    {
+      "name": "Amazon Fresh",
+      "aliases": [
+        "AMAZON FRESH"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "Flipkart Minutes",
+      "aliases": [
+        "FLIPKART MINUTES"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "Swish",
+      "aliases": [
+        "SWISH",
+        "SWISH QUICK COMMERCE"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "Amazon India",
+      "aliases": [
+        "AMAZON",
+        "AMAZON.IN",
+        "AMAZON SELLER SERVICES",
+        "AMZN"
+      ],
+      "category": "Shopping",
+      "subcategory": "Online Marketplace",
+      "type": "Online"
+    },
+    {
+      "name": "Flipkart",
+      "aliases": [
+        "FLIPKART",
+        "FLIPKART INTERNET",
+        "FKRT"
+      ],
+      "category": "Shopping",
+      "subcategory": "Online Marketplace",
+      "type": "Online"
+    },
+    {
+      "name": "Myntra",
+      "aliases": [
+        "MYNTRA",
+        "MYNTRA DESIGNS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Online"
+    },
+    {
+      "name": "Ajio",
+      "aliases": [
+        "AJIO",
+        "RELIANCE AJIO"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Online"
+    },
+    {
+      "name": "Nykaa",
+      "aliases": [
+        "NYKAA",
+        "FSN E-COMMERCE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Beauty/Cosmetics",
+      "type": "Online"
+    },
+    {
+      "name": "Meesho",
+      "aliases": [
+        "MEESHO",
+        "FASHNEAR TECHNOLOGIES"
+      ],
+      "category": "Shopping",
+      "subcategory": "Online Marketplace",
+      "type": "Online"
+    },
+    {
+      "name": "Snapdeal",
+      "aliases": [
+        "SNAPDEAL",
+        "JASPER INFOTECH"
+      ],
+      "category": "Shopping",
+      "subcategory": "Online Marketplace",
+      "type": "Online"
+    },
+    {
+      "name": "Tata CLiQ",
+      "aliases": [
+        "TATA CLIQ",
+        "TATACLIQ"
+      ],
+      "category": "Shopping",
+      "subcategory": "Online Marketplace",
+      "type": "Online"
+    },
+    {
+      "name": "ShopClues",
+      "aliases": [
+        "SHOPCLUES"
+      ],
+      "category": "Shopping",
+      "subcategory": "Online Marketplace",
+      "type": "Online"
+    },
+    {
+      "name": "Limeroad",
+      "aliases": [
+        "LIMEROAD"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Online"
+    },
+    {
+      "name": "Purplle",
+      "aliases": [
+        "PURPLLE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Beauty/Cosmetics",
+      "type": "Online"
+    },
+    {
+      "name": "FirstCry",
+      "aliases": [
+        "FIRSTCRY",
+        "BROBOT TECHNOLOGIES"
+      ],
+      "category": "Shopping",
+      "subcategory": "General/Department Store",
+      "type": "Online"
+    },
+    {
+      "name": "Pepperfry",
+      "aliases": [
+        "PEPPERFRY",
+        "TRENDSUTRA PLATFORM"
+      ],
+      "category": "Shopping",
+      "subcategory": "Home & Furniture",
+      "type": "Online"
+    },
+    {
+      "name": "Urban Ladder",
+      "aliases": [
+        "URBAN LADDER"
+      ],
+      "category": "Shopping",
+      "subcategory": "Home & Furniture",
+      "type": "Online"
+    },
+    {
+      "name": "IKEA",
+      "aliases": [
+        "IKEA",
+        "IKEA INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Home & Furniture",
+      "type": "Offline"
+    },
+    {
+      "name": "Home Centre",
+      "aliases": [
+        "HOME CENTRE",
+        "LANDMARK GROUP"
+      ],
+      "category": "Shopping",
+      "subcategory": "Home & Furniture",
+      "type": "Offline"
+    },
+    {
+      "name": "Croma",
+      "aliases": [
+        "CROMA",
+        "INFINITY RETAIL"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Offline"
+    },
+    {
+      "name": "Reliance Digital",
+      "aliases": [
+        "RELIANCE DIGITAL"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Offline"
+    },
+    {
+      "name": "Vijay Sales",
+      "aliases": [
+        "VIJAY SALES"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Offline"
+    },
+    {
+      "name": "Apple Store India",
+      "aliases": [
+        "APPLE STORE",
+        "APPLE INDIA",
+        "APPLE RETAIL",
+        "APPLE.COM",
+        "APPLE ONLINE STORE",
+        "APPLE INDIA ECOM"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Sangeetha Mobiles",
+      "aliases": [
+        "SANGEETHA MOBILES"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Offline"
+    },
+    {
+      "name": "Poorvika Mobiles",
+      "aliases": [
+        "POORVIKA",
+        "POORVIKA MOBILES"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Offline"
+    },
+    {
+      "name": "Bata",
+      "aliases": [
+        "BATA",
+        "BATA INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Footwear",
+      "type": "Offline"
+    },
+    {
+      "name": "Liberty Shoes",
+      "aliases": [
+        "LIBERTY",
+        "LIBERTY SHOES"
+      ],
+      "category": "Shopping",
+      "subcategory": "Footwear",
+      "type": "Offline"
+    },
+    {
+      "name": "Woodland",
+      "aliases": [
+        "WOODLAND",
+        "AERO CLUB WOODLAND"
+      ],
+      "category": "Shopping",
+      "subcategory": "Footwear",
+      "type": "Offline"
+    },
+    {
+      "name": "Metro Shoes",
+      "aliases": [
+        "METRO SHOES",
+        "METRO BRANDS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Footwear",
+      "type": "Offline"
+    },
+    {
+      "name": "Adidas",
+      "aliases": [
+        "ADIDAS",
+        "ADIDAS INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Both"
+    },
+    {
+      "name": "Nike",
+      "aliases": [
+        "NIKE",
+        "NIKE INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Both"
+    },
+    {
+      "name": "Puma",
+      "aliases": [
+        "PUMA",
+        "PUMA INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Both"
+    },
+    {
+      "name": "Reebok",
+      "aliases": [
+        "REEBOK"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Both"
+    },
+    {
+      "name": "Levi's",
+      "aliases": [
+        "LEVIS",
+        "LEVI'S",
+        "LEVI STRAUSS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Zara",
+      "aliases": [
+        "ZARA",
+        "ZARA INDIA",
+        "INDITEX TRENT"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "H&M",
+      "aliases": [
+        "H&M",
+        "HENNES AND MAURITZ"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Pantaloons",
+      "aliases": [
+        "PANTALOONS",
+        "ABFRL"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Westside",
+      "aliases": [
+        "WESTSIDE",
+        "TRENT WESTSIDE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Lifestyle",
+      "aliases": [
+        "LIFESTYLE STORES",
+        "LANDMARK LIFESTYLE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Shoppers Stop",
+      "aliases": [
+        "SHOPPERS STOP"
+      ],
+      "category": "Shopping",
+      "subcategory": "General/Department Store",
+      "type": "Offline"
+    },
+    {
+      "name": "Max Fashion",
+      "aliases": [
+        "MAX FASHION",
+        "LANDMARK MAX"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "FabIndia",
+      "aliases": [
+        "FABINDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Manyavar",
+      "aliases": [
+        "MANYAVAR",
+        "VEDANT FASHIONS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Van Heusen",
+      "aliases": [
+        "VAN HEUSEN",
+        "ABFRL VAN HEUSEN"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Allen Solly",
+      "aliases": [
+        "ALLEN SOLLY"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Peter England",
+      "aliases": [
+        "PETER ENGLAND"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Raymond",
+      "aliases": [
+        "RAYMOND",
+        "RAYMOND LTD"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Titan",
+      "aliases": [
+        "TITAN",
+        "TITAN COMPANY"
+      ],
+      "category": "Shopping",
+      "subcategory": "Jewelry/Accessories",
+      "type": "Offline"
+    },
+    {
+      "name": "Tanishq",
+      "aliases": [
+        "TANISHQ",
+        "TITAN TANISHQ"
+      ],
+      "category": "Shopping",
+      "subcategory": "Jewelry/Accessories",
+      "type": "Offline"
+    },
+    {
+      "name": "Kalyan Jewellers",
+      "aliases": [
+        "KALYAN JEWELLERS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Jewelry/Accessories",
+      "type": "Offline"
+    },
+    {
+      "name": "Malabar Gold & Diamonds",
+      "aliases": [
+        "MALABAR GOLD",
+        "MALABAR GOLD AND DIAMONDS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Jewelry/Accessories",
+      "type": "Offline"
+    },
+    {
+      "name": "PC Jeweller",
+      "aliases": [
+        "PC JEWELLER"
+      ],
+      "category": "Shopping",
+      "subcategory": "Jewelry/Accessories",
+      "type": "Offline"
+    },
+    {
+      "name": "CaratLane",
+      "aliases": [
+        "CARATLANE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Jewelry/Accessories",
+      "type": "Online"
+    },
+    {
+      "name": "Big Bazaar",
+      "aliases": [
+        "BIG BAZAAR",
+        "FUTURE RETAIL"
+      ],
+      "category": "Shopping",
+      "subcategory": "General/Department Store",
+      "type": "Offline"
+    },
+    {
+      "name": "Crossword Bookstores",
+      "aliases": [
+        "CROSSWORD",
+        "CROSSWORD BOOKSTORES"
+      ],
+      "category": "Shopping",
+      "subcategory": "Books/Stationery",
+      "type": "Offline"
+    },
+    {
+      "name": "Sapna Book House",
+      "aliases": [
+        "SAPNA BOOK HOUSE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Books/Stationery",
+      "type": "Offline"
+    },
+    {
+      "name": "Amazon Kindle",
+      "aliases": [
+        "AMAZON KINDLE",
+        "KINDLE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Books/Stationery",
+      "type": "Online"
+    },
+    {
+      "name": "Office Depot India",
+      "aliases": [
+        "OFFICE DEPOT"
+      ],
+      "category": "Stationary/Office Supplies",
+      "subcategory": "Office Supplies",
+      "type": "Offline"
+    },
+    {
+      "name": "Kokuyo Camlin",
+      "aliases": [
+        "KOKUYO CAMLIN",
+        "CAMLIN"
+      ],
+      "category": "Stationary/Office Supplies",
+      "subcategory": "Art Supplies",
+      "type": "Offline"
+    },
+    {
+      "name": "Classmate",
+      "aliases": [
+        "CLASSMATE",
+        "ITC CLASSMATE"
+      ],
+      "category": "Stationary/Office Supplies",
+      "subcategory": "Office Supplies",
+      "type": "Offline"
+    },
+    {
+      "name": "Navneet",
+      "aliases": [
+        "NAVNEET",
+        "NAVNEET EDUCATION"
+      ],
+      "category": "Stationary/Office Supplies",
+      "subcategory": "Office Supplies",
+      "type": "Offline"
+    },
+    {
+      "name": "Staples India",
+      "aliases": [
+        "STAPLES INDIA"
+      ],
+      "category": "Stationary/Office Supplies",
+      "subcategory": "Office Supplies",
+      "type": "Offline"
+    },
+    {
+      "name": "IndiGo",
+      "aliases": [
+        "INDIGO",
+        "INTERGLOBE AVIATION",
+        "6E"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Both"
+    },
+    {
+      "name": "Air India",
+      "aliases": [
+        "AIR INDIA",
+        "AI AIRLINES"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Both"
+    },
+    {
+      "name": "SpiceJet",
+      "aliases": [
+        "SPICEJET"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Both"
+    },
+    {
+      "name": "Vistara",
+      "aliases": [
+        "VISTARA",
+        "TATA SIA AIRLINES"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Both"
+    },
+    {
+      "name": "Akasa Air",
+      "aliases": [
+        "AKASA AIR",
+        "AKASA"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Both"
+    },
+    {
+      "name": "GoAir/Go First",
+      "aliases": [
+        "GOAIR",
+        "GO FIRST"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Both"
+    },
+    {
+      "name": "IRCTC",
+      "aliases": [
+        "IRCTC",
+        "INDIAN RAILWAY CATERING"
+      ],
+      "category": "Travel",
+      "subcategory": "Train",
+      "type": "Online"
+    },
+    {
+      "name": "Indian Railways",
+      "aliases": [
+        "INDIAN RAILWAYS",
+        "RAILWAY BOOKING"
+      ],
+      "category": "Travel",
+      "subcategory": "Train",
+      "type": "Offline"
+    },
+    {
+      "name": "RedBus",
+      "aliases": [
+        "REDBUS",
+        "IBIBO REDBUS"
+      ],
+      "category": "Travel",
+      "subcategory": "Bus",
+      "type": "Online"
+    },
+    {
+      "name": "AbhiBus",
+      "aliases": [
+        "ABHIBUS"
+      ],
+      "category": "Travel",
+      "subcategory": "Bus",
+      "type": "Online"
+    },
+    {
+      "name": "VRL Travels",
+      "aliases": [
+        "VRL TRAVELS"
+      ],
+      "category": "Travel",
+      "subcategory": "Bus",
+      "type": "Offline"
+    },
+    {
+      "name": "SRS Travels",
+      "aliases": [
+        "SRS TRAVELS"
+      ],
+      "category": "Travel",
+      "subcategory": "Bus",
+      "type": "Offline"
+    },
+    {
+      "name": "MakeMyTrip",
+      "aliases": [
+        "MAKEMYTRIP",
+        "MMT"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Online"
+    },
+    {
+      "name": "Yatra",
+      "aliases": [
+        "YATRA",
+        "YATRA ONLINE"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Online"
+    },
+    {
+      "name": "Goibibo",
+      "aliases": [
+        "GOIBIBO",
+        "IBIBO GROUP"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Online"
+    },
+    {
+      "name": "Cleartrip",
+      "aliases": [
+        "CLEARTRIP"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Online"
+    },
+    {
+      "name": "EaseMyTrip",
+      "aliases": [
+        "EASEMYTRIP",
+        "EASE MY TRIP"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Online"
+    },
+    {
+      "name": "Uber",
+      "aliases": [
+        "UBER",
+        "UBER INDIA"
+      ],
+      "category": "Travel",
+      "subcategory": "Cab/Ride-hailing",
+      "type": "Online"
+    },
+    {
+      "name": "Ola Cabs",
+      "aliases": [
+        "OLA",
+        "OLA CABS",
+        "ANI TECHNOLOGIES"
+      ],
+      "category": "Travel",
+      "subcategory": "Cab/Ride-hailing",
+      "type": "Online"
+    },
+    {
+      "name": "Rapido",
+      "aliases": [
+        "RAPIDO",
+        "ROPPEN TRANSPORTATION"
+      ],
+      "category": "Travel",
+      "subcategory": "Cab/Ride-hailing",
+      "type": "Online"
+    },
+    {
+      "name": "BluSmart",
+      "aliases": [
+        "BLUSMART",
+        "BLU SMART MOBILITY"
+      ],
+      "category": "Travel",
+      "subcategory": "Cab/Ride-hailing",
+      "type": "Online"
+    },
+    {
+      "name": "Delhi Metro (DMRC)",
+      "aliases": [
+        "DMRC",
+        "DELHI METRO",
+        "DELHI METRO RAIL"
+      ],
+      "category": "Travel",
+      "subcategory": "Metro",
+      "type": "Offline"
+    },
+    {
+      "name": "Namma Metro",
+      "aliases": [
+        "NAMMA METRO",
+        "BMRCL"
+      ],
+      "category": "Travel",
+      "subcategory": "Metro",
+      "type": "Offline"
+    },
+    {
+      "name": "Mumbai Metro",
+      "aliases": [
+        "MUMBAI METRO",
+        "MMRC"
+      ],
+      "category": "Travel",
+      "subcategory": "Metro",
+      "type": "Offline"
+    },
+    {
+      "name": "Chennai Metro",
+      "aliases": [
+        "CHENNAI METRO",
+        "CMRL"
+      ],
+      "category": "Travel",
+      "subcategory": "Metro",
+      "type": "Offline"
+    },
+    {
+      "name": "Hyderabad Metro",
+      "aliases": [
+        "HYDERABAD METRO",
+        "L&T METRO HYDERABAD"
+      ],
+      "category": "Travel",
+      "subcategory": "Metro",
+      "type": "Offline"
+    },
+    {
+      "name": "NMMT/BEST Bus",
+      "aliases": [
+        "BEST BUS",
+        "NMMT",
+        "MUMBAI BUS"
+      ],
+      "category": "Travel",
+      "subcategory": "Bus",
+      "type": "Offline"
+    },
+    {
+      "name": "Zoomcar",
+      "aliases": [
+        "ZOOMCAR"
+      ],
+      "category": "Travel",
+      "subcategory": "Car Rental/Self-drive",
+      "type": "Online"
+    },
+    {
+      "name": "Revv Self Drive",
+      "aliases": [
+        "REVV",
+        "REVV SELF DRIVE"
+      ],
+      "category": "Travel",
+      "subcategory": "Car Rental/Self-drive",
+      "type": "Online"
+    },
+    {
+      "name": "Indian Oil (IOCL)",
+      "aliases": [
+        "INDIAN OIL",
+        "IOCL"
+      ],
+      "category": "Travel",
+      "subcategory": "Fuel/Petrol-Diesel",
+      "type": "Offline"
+    },
+    {
+      "name": "Bharat Petroleum (BPCL)",
+      "aliases": [
+        "BHARAT PETROLEUM",
+        "BPCL"
+      ],
+      "category": "Travel",
+      "subcategory": "Fuel/Petrol-Diesel",
+      "type": "Offline"
+    },
+    {
+      "name": "Hindustan Petroleum (HPCL)",
+      "aliases": [
+        "HINDUSTAN PETROLEUM",
+        "HPCL"
+      ],
+      "category": "Travel",
+      "subcategory": "Fuel/Petrol-Diesel",
+      "type": "Offline"
+    },
+    {
+      "name": "Shell India",
+      "aliases": [
+        "SHELL",
+        "SHELL INDIA",
+        "SHELL PETROL"
+      ],
+      "category": "Travel",
+      "subcategory": "Fuel/Petrol-Diesel",
+      "type": "Offline"
+    },
+    {
+      "name": "FASTag - NHAI",
+      "aliases": [
+        "FASTAG",
+        "NHAI FASTAG",
+        "NETC FASTAG",
+        "TOLL PLAZA"
+      ],
+      "category": "Travel",
+      "subcategory": "Toll/FASTag",
+      "type": "Offline"
+    },
+    {
+      "name": "Park+",
+      "aliases": [
+        "PARK PLUS",
+        "PARK+",
+        "PARKPLUS"
+      ],
+      "category": "Travel",
+      "subcategory": "Parking",
+      "type": "Online"
+    },
+    {
+      "name": "OYO Rooms",
+      "aliases": [
+        "OYO",
+        "OYO ROOMS",
+        "OYO HOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Online"
+    },
+    {
+      "name": "Taj Hotels",
+      "aliases": [
+        "TAJ HOTELS",
+        "INDIAN HOTELS COMPANY"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "The Oberoi Hotels",
+      "aliases": [
+        "OBEROI HOTELS",
+        "EIH LIMITED"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "ITC Hotels",
+      "aliases": [
+        "ITC HOTELS",
+        "ITC WELCOMGROUP"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Leela Palaces",
+      "aliases": [
+        "THE LEELA",
+        "LEELA PALACES"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Lemon Tree Hotels",
+      "aliases": [
+        "LEMON TREE HOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Treebo Hotels",
+      "aliases": [
+        "TREEBO",
+        "TREEBO HOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hostel/Budget Stay",
+      "type": "Online"
+    },
+    {
+      "name": "FabHotels",
+      "aliases": [
+        "FABHOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hostel/Budget Stay",
+      "type": "Online"
+    },
+    {
+      "name": "Airbnb",
+      "aliases": [
+        "AIRBNB"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Homestay/Vacation Rental",
+      "type": "Online"
+    },
+    {
+      "name": "Zostel",
+      "aliases": [
+        "ZOSTEL"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hostel/Budget Stay",
+      "type": "Online"
+    },
+    {
+      "name": "goSTOPS",
+      "aliases": [
+        "GOSTOPS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hostel/Budget Stay",
+      "type": "Online"
+    },
+    {
+      "name": "Booking.com",
+      "aliases": [
+        "BOOKING.COM",
+        "BOOKING COM"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Online"
+    },
+    {
+      "name": "BookMyShow",
+      "aliases": [
+        "BOOKMYSHOW",
+        "BIGTREE ENTERTAINMENT"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Events & Ticketing",
+      "type": "Online"
+    },
+    {
+      "name": "PVR Cinemas",
+      "aliases": [
+        "PVR",
+        "PVR CINEMAS",
+        "PVR INOX"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Movies/Cinema",
+      "type": "Offline"
+    },
+    {
+      "name": "INOX",
+      "aliases": [
+        "INOX",
+        "INOX LEISURE"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Movies/Cinema",
+      "type": "Offline"
+    },
+    {
+      "name": "Cinepolis",
+      "aliases": [
+        "CINEPOLIS"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Movies/Cinema",
+      "type": "Offline"
+    },
+    {
+      "name": "Miraj Cinemas",
+      "aliases": [
+        "MIRAJ CINEMAS"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Movies/Cinema",
+      "type": "Offline"
+    },
+    {
+      "name": "Wonderla",
+      "aliases": [
+        "WONDERLA",
+        "WONDERLA HOLIDAYS"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Essel World",
+      "aliases": [
+        "ESSEL WORLD",
+        "ESSELWORLD"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Adlabs Imagica",
+      "aliases": [
+        "IMAGICA",
+        "ADLABS IMAGICA"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Adventure Island",
+      "aliases": [
+        "ADVENTURE ISLAND"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "World of Wonders (WoW)",
+      "aliases": [
+        "WORLD OF WONDERS",
+        "WOW WATERPARK",
+        "WOW"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Sky Jumper Trampoline Park",
+      "aliases": [
+        "SKY JUMPER",
+        "SKYJUMPER"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Smaaash",
+      "aliases": [
+        "SMAAASH"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Gaming",
+      "type": "Offline"
+    },
+    {
+      "name": "Timezone",
+      "aliases": [
+        "TIMEZONE",
+        "TIME ZONE"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Gaming",
+      "type": "Offline"
+    },
+    {
+      "name": "Fun City",
+      "aliases": [
+        "FUN CITY"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Nicco Park",
+      "aliases": [
+        "NICCO PARK"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Ramoji Film City",
+      "aliases": [
+        "RAMOJI FILM CITY"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Dream11",
+      "aliases": [
+        "DREAM11",
+        "DREAM SPORTS"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Gaming",
+      "type": "Online"
+    },
+    {
+      "name": "My11Circle",
+      "aliases": [
+        "MY11CIRCLE"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Gaming",
+      "type": "Online"
+    },
+    {
+      "name": "MPL (Mobile Premier League)",
+      "aliases": [
+        "MPL",
+        "MOBILE PREMIER LEAGUE"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Gaming",
+      "type": "Online"
+    },
+    {
+      "name": "Winzo",
+      "aliases": [
+        "WINZO",
+        "WINZO GAMES"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Gaming",
+      "type": "Online"
+    },
+    {
+      "name": "Apollo Pharmacy",
+      "aliases": [
+        "APOLLO PHARMACY"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Pharmacy",
+      "type": "Offline"
+    },
+    {
+      "name": "MedPlus",
+      "aliases": [
+        "MEDPLUS",
+        "MEDPLUS PHARMACY"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Pharmacy",
+      "type": "Offline"
+    },
+    {
+      "name": "Netmeds",
+      "aliases": [
+        "NETMEDS",
+        "NETMEDS.COM"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Pharmacy",
+      "type": "Online"
+    },
+    {
+      "name": "PharmEasy",
+      "aliases": [
+        "PHARMEASY",
+        "API HOLDINGS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Pharmacy",
+      "type": "Online"
+    },
+    {
+      "name": "1mg (Tata 1mg)",
+      "aliases": [
+        "1MG",
+        "TATA 1MG"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Pharmacy",
+      "type": "Online"
+    },
+    {
+      "name": "Apollo 24|7",
+      "aliases": [
+        "APOLLO 247",
+        "APOLLO 24/7"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Telemedicine",
+      "type": "Online"
+    },
+    {
+      "name": "Practo",
+      "aliases": [
+        "PRACTO"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Telemedicine",
+      "type": "Online"
+    },
+    {
+      "name": "Apollo Hospitals",
+      "aliases": [
+        "APOLLO HOSPITALS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Fortis Healthcare",
+      "aliases": [
+        "FORTIS",
+        "FORTIS HEALTHCARE"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Max Healthcare",
+      "aliases": [
+        "MAX HEALTHCARE",
+        "MAX HOSPITAL"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Manipal Hospitals",
+      "aliases": [
+        "MANIPAL HOSPITALS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Narayana Health",
+      "aliases": [
+        "NARAYANA HEALTH",
+        "NARAYANA HRUDAYALAYA"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "AIIMS",
+      "aliases": [
+        "AIIMS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Medanta",
+      "aliases": [
+        "MEDANTA",
+        "MEDANTA THE MEDICITY"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Dr Lal PathLabs",
+      "aliases": [
+        "DR LAL PATHLABS",
+        "LAL PATHLABS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Diagnostic Lab",
+      "type": "Offline"
+    },
+    {
+      "name": "Metropolis Healthcare",
+      "aliases": [
+        "METROPOLIS",
+        "METROPOLIS HEALTHCARE"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Diagnostic Lab",
+      "type": "Offline"
+    },
+    {
+      "name": "Thyrocare",
+      "aliases": [
+        "THYROCARE"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Diagnostic Lab",
+      "type": "Offline"
+    },
+    {
+      "name": "SRL Diagnostics",
+      "aliases": [
+        "SRL DIAGNOSTICS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Diagnostic Lab",
+      "type": "Offline"
+    },
+    {
+      "name": "Cult.fit",
+      "aliases": [
+        "CULTFIT",
+        "CULT.FIT",
+        "CUREFIT"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Fitness/Gym",
+      "type": "Both"
+    },
+    {
+      "name": "Gold's Gym",
+      "aliases": [
+        "GOLDS GYM",
+        "GOLD'S GYM"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Fitness/Gym",
+      "type": "Offline"
+    },
+    {
+      "name": "Anytime Fitness",
+      "aliases": [
+        "ANYTIME FITNESS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Fitness/Gym",
+      "type": "Offline"
+    },
+    {
+      "name": "Talwalkars",
+      "aliases": [
+        "TALWALKARS",
+        "TALWALKARS GYM"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Fitness/Gym",
+      "type": "Offline"
+    },
+    {
+      "name": "Airtel",
+      "aliases": [
+        "AIRTEL",
+        "BHARTI AIRTEL"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Mobile Recharge/Postpaid",
+      "type": "Online"
+    },
+    {
+      "name": "Jio",
+      "aliases": [
+        "JIO",
+        "RELIANCE JIO",
+        "JIO RECHARGE"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Mobile Recharge/Postpaid",
+      "type": "Online"
+    },
+    {
+      "name": "Vi (Vodafone Idea)",
+      "aliases": [
+        "VI",
+        "VODAFONE IDEA",
+        "VODAFONE"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Mobile Recharge/Postpaid",
+      "type": "Online"
+    },
+    {
+      "name": "BSNL",
+      "aliases": [
+        "BSNL"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Mobile Recharge/Postpaid",
+      "type": "Online"
+    },
+    {
+      "name": "Tata Power",
+      "aliases": [
+        "TATA POWER"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Electricity",
+      "type": "Online"
+    },
+    {
+      "name": "BSES",
+      "aliases": [
+        "BSES",
+        "BSES RAJDHANI",
+        "BSES YAMUNA"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Electricity",
+      "type": "Online"
+    },
+    {
+      "name": "Adani Electricity",
+      "aliases": [
+        "ADANI ELECTRICITY"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Electricity",
+      "type": "Online"
+    },
+    {
+      "name": "MSEB/MSEDCL",
+      "aliases": [
+        "MSEDCL",
+        "MAHADISCOM"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Electricity",
+      "type": "Online"
+    },
+    {
+      "name": "Indane Gas",
+      "aliases": [
+        "INDANE",
+        "INDANE GAS",
+        "HP GAS",
+        "BHARAT GAS"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Gas",
+      "type": "Offline"
+    },
+    {
+      "name": "Mahanagar Gas",
+      "aliases": [
+        "MAHANAGAR GAS",
+        "MGL"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Gas",
+      "type": "Online"
+    },
+    {
+      "name": "Tata Sky/Tata Play",
+      "aliases": [
+        "TATA SKY",
+        "TATA PLAY"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "DTH/Cable",
+      "type": "Online"
+    },
+    {
+      "name": "Dish TV",
+      "aliases": [
+        "DISH TV",
+        "DISHTV"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "DTH/Cable",
+      "type": "Online"
+    },
+    {
+      "name": "Airtel Digital TV",
+      "aliases": [
+        "AIRTEL DIGITAL TV"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "DTH/Cable",
+      "type": "Online"
+    },
+    {
+      "name": "ACT Fibernet",
+      "aliases": [
+        "ACT FIBERNET",
+        "ATRIA CONVERGENCE"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Broadband/Internet",
+      "type": "Online"
+    },
+    {
+      "name": "Excitel Broadband",
+      "aliases": [
+        "EXCITEL"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Broadband/Internet",
+      "type": "Online"
+    },
+    {
+      "name": "BYJU'S",
+      "aliases": [
+        "BYJUS",
+        "BYJU'S",
+        "THINK AND LEARN"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "Unacademy",
+      "aliases": [
+        "UNACADEMY"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "Vedantu",
+      "aliases": [
+        "VEDANTU"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "Physics Wallah",
+      "aliases": [
+        "PHYSICS WALLAH",
+        "PW"
+      ],
+      "category": "Education",
+      "subcategory": "Coaching/Tuition",
+      "type": "Both"
+    },
+    {
+      "name": "upGrad",
+      "aliases": [
+        "UPGRAD"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "Allen Career Institute",
+      "aliases": [
+        "ALLEN CAREER INSTITUTE",
+        "ALLEN"
+      ],
+      "category": "Education",
+      "subcategory": "Coaching/Tuition",
+      "type": "Offline"
+    },
+    {
+      "name": "Aakash Institute",
+      "aliases": [
+        "AAKASH INSTITUTE",
+        "AAKASH EDUCATIONAL"
+      ],
+      "category": "Education",
+      "subcategory": "Coaching/Tuition",
+      "type": "Offline"
+    },
+    {
+      "name": "FIITJEE",
+      "aliases": [
+        "FIITJEE"
+      ],
+      "category": "Education",
+      "subcategory": "Coaching/Tuition",
+      "type": "Offline"
+    },
+    {
+      "name": "Coursera",
+      "aliases": [
+        "COURSERA"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "Udemy",
+      "aliases": [
+        "UDEMY"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "Paytm",
+      "aliases": [
+        "PAYTM",
+        "ONE97 COMMUNICATIONS"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Digital Wallet Load",
+      "type": "Online"
+    },
+    {
+      "name": "PhonePe",
+      "aliases": [
+        "PHONEPE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Digital Wallet Load",
+      "type": "Online"
+    },
+    {
+      "name": "Google Pay",
+      "aliases": [
+        "GOOGLE PAY",
+        "GPAY"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Digital Wallet Load",
+      "type": "Online"
+    },
+    {
+      "name": "Amazon Pay",
+      "aliases": [
+        "AMAZON PAY",
+        "AMAZON PAY WALLET"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Digital Wallet Load",
+      "type": "Online"
+    },
+    {
+      "name": "CRED",
+      "aliases": [
+        "CRED",
+        "DREAMPLUG TECHNOLOGIES"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Banking/Card Fees",
+      "type": "Online"
+    },
+    {
+      "name": "LIC",
+      "aliases": [
+        "LIC",
+        "LIFE INSURANCE CORPORATION"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Offline"
+    },
+    {
+      "name": "Policybazaar",
+      "aliases": [
+        "POLICYBAZAAR"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Online"
+    },
+    {
+      "name": "HDFC Bank",
+      "aliases": [
+        "HDFC BANK",
+        "HDFC"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Banking/Card Fees",
+      "type": "Both"
+    },
+    {
+      "name": "ICICI Bank",
+      "aliases": [
+        "ICICI BANK",
+        "ICICI"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Banking/Card Fees",
+      "type": "Both"
+    },
+    {
+      "name": "SBI",
+      "aliases": [
+        "SBI",
+        "STATE BANK OF INDIA"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Banking/Card Fees",
+      "type": "Both"
+    },
+    {
+      "name": "Axis Bank",
+      "aliases": [
+        "AXIS BANK"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Banking/Card Fees",
+      "type": "Both"
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "aliases": [
+        "KOTAK MAHINDRA BANK",
+        "KOTAK BANK"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Banking/Card Fees",
+      "type": "Both"
+    },
+    {
+      "name": "Zerodha",
+      "aliases": [
+        "ZERODHA",
+        "ZERODHA BROKING"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Investment/Trading",
+      "type": "Online"
+    },
+    {
+      "name": "Groww",
+      "aliases": [
+        "GROWW"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Investment/Trading",
+      "type": "Online"
+    },
+    {
+      "name": "Upstox",
+      "aliases": [
+        "UPSTOX"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Investment/Trading",
+      "type": "Online"
+    },
+    {
+      "name": "Bajaj Finserv",
+      "aliases": [
+        "BAJAJ FINSERV",
+        "BAJAJ FINANCE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Loan/EMI",
+      "type": "Both"
+    },
+    {
+      "name": "Navi",
+      "aliases": [
+        "NAVI",
+        "NAVI FINSERV"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Loan/EMI",
+      "type": "Online"
+    },
+    {
+      "name": "Lakme Salon",
+      "aliases": [
+        "LAKME SALON"
+      ],
+      "category": "Personal Care",
+      "subcategory": "Salon/Barber",
+      "type": "Offline"
+    },
+    {
+      "name": "Naturals Salon",
+      "aliases": [
+        "NATURALS SALON",
+        "NATURALS ICON"
+      ],
+      "category": "Personal Care",
+      "subcategory": "Salon/Barber",
+      "type": "Offline"
+    },
+    {
+      "name": "Jawed Habib",
+      "aliases": [
+        "JAWED HABIB"
+      ],
+      "category": "Personal Care",
+      "subcategory": "Salon/Barber",
+      "type": "Offline"
+    },
+    {
+      "name": "Urban Company",
+      "aliases": [
+        "URBAN COMPANY",
+        "URBANCLAP"
+      ],
+      "category": "Home Services",
+      "subcategory": "Cleaning/Maid",
+      "type": "Online"
+    },
+    {
+      "name": "VLCC",
+      "aliases": [
+        "VLCC"
+      ],
+      "category": "Personal Care",
+      "subcategory": "Spa",
+      "type": "Offline"
+    },
+    {
+      "name": "NoBroker",
+      "aliases": [
+        "NOBROKER"
+      ],
+      "category": "Home Services",
+      "subcategory": "Repair & Maintenance",
+      "type": "Online"
+    },
+    {
+      "name": "Housejoy",
+      "aliases": [
+        "HOUSEJOY"
+      ],
+      "category": "Home Services",
+      "subcategory": "Repair & Maintenance",
+      "type": "Online"
+    },
+    {
+      "name": "UPI Person to Person",
+      "aliases": [
+        "UPI/P2P",
+        "UPI TRANSFER",
+        "IMPS",
+        "NEFT"
+      ],
+      "category": "Transfers",
+      "subcategory": "UPI P2P",
+      "type": "Online"
+    },
+    {
+      "name": "boAt",
+      "aliases": [
+        "BOAT",
+        "BOAT LIFESTYLE",
+        "IMAGINE MARKETING"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Online"
+    },
+    {
+      "name": "Noise",
+      "aliases": [
+        "NOISE",
+        "NOISE LIFESTYLE",
+        "NOISEFIT"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Online"
+    },
+    {
+      "name": "Fire-Boltt",
+      "aliases": [
+        "FIRE BOLTT",
+        "FIREBOLTT"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Online"
+    },
+    {
+      "name": "Lenovo",
+      "aliases": [
+        "LENOVO",
+        "LENOVO INDIA",
+        "LENOVO PC"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Dell",
+      "aliases": [
+        "DELL",
+        "DELL TECHNOLOGIES",
+        "DELL INDIA",
+        "DELL COMPUTERS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "HP (Hewlett-Packard)",
+      "aliases": [
+        "HP INDIA",
+        "HEWLETT PACKARD",
+        "HP INC",
+        "HP STORE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Asus",
+      "aliases": [
+        "ASUS",
+        "ASUSTEK",
+        "ASUS INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Acer",
+      "aliases": [
+        "ACER",
+        "ACER INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Samsung",
+      "aliases": [
+        "SAMSUNG",
+        "SAMSUNG INDIA",
+        "SAMSUNG ELECTRONICS",
+        "SAMSUNG SHOP"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Xiaomi/Mi",
+      "aliases": [
+        "MI STORE",
+        "XIAOMI",
+        "MI INDIA",
+        "REDMI",
+        "XIAOMI INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "OnePlus",
+      "aliases": [
+        "ONEPLUS",
+        "ONEPLUS INDIA",
+        "ONEPLUS STORE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Realme",
+      "aliases": [
+        "REALME",
+        "REALME INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Vivo",
+      "aliases": [
+        "VIVO",
+        "VIVO INDIA",
+        "VIVO MOBILE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Oppo",
+      "aliases": [
+        "OPPO",
+        "OPPO INDIA",
+        "OPPO MOBILES"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "JBL/Harman",
+      "aliases": [
+        "JBL",
+        "HARMAN",
+        "HARMAN INTERNATIONAL"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Sony India",
+      "aliases": [
+        "SONY INDIA",
+        "SONY CENTER",
+        "SONY ELECTRONICS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "LG Electronics",
+      "aliases": [
+        "LG ELECTRONICS",
+        "LG INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Bose",
+      "aliases": [
+        "BOSE",
+        "BOSE CORPORATION",
+        "BOSE INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Philips India",
+      "aliases": [
+        "PHILIPS INDIA",
+        "PHILIPS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Whirlpool India",
+      "aliases": [
+        "WHIRLPOOL",
+        "WHIRLPOOL INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Godrej Appliances",
+      "aliases": [
+        "GODREJ APPLIANCES",
+        "GODREJ",
+        "GODREJ AND BOYCE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Bosch Home Appliances",
+      "aliases": [
+        "BOSCH",
+        "BOSCH HOME APPLIANCES",
+        "BSH HOUSEHOLD"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Havells",
+      "aliases": [
+        "HAVELLS",
+        "HAVELLS INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Logitech",
+      "aliases": [
+        "LOGITECH",
+        "LOGITECH INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Online"
+    },
+    {
+      "name": "Micromax",
+      "aliases": [
+        "MICROMAX",
+        "MICROMAX INFORMATICS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Both"
+    },
+    {
+      "name": "Decathlon",
+      "aliases": [
+        "DECATHLON",
+        "DECATHLON SPORTS INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Both"
+    },
+    {
+      "name": "Uniqlo",
+      "aliases": [
+        "UNIQLO",
+        "UNIQLO INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Marks & Spencer",
+      "aliases": [
+        "MARKS AND SPENCER",
+        "M&S",
+        "MARKS & SPENCER"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Under Armour",
+      "aliases": [
+        "UNDER ARMOUR"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Both"
+    },
+    {
+      "name": "Skechers",
+      "aliases": [
+        "SKECHERS",
+        "SKECHERS INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Footwear",
+      "type": "Both"
+    },
+    {
+      "name": "Crocs",
+      "aliases": [
+        "CROCS",
+        "CROCS INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Footwear",
+      "type": "Both"
+    },
+    {
+      "name": "Tommy Hilfiger",
+      "aliases": [
+        "TOMMY HILFIGER"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Calvin Klein",
+      "aliases": [
+        "CALVIN KLEIN",
+        "CK"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Superdry",
+      "aliases": [
+        "SUPERDRY"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Gap",
+      "aliases": [
+        "GAP",
+        "GAP INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Hamleys",
+      "aliases": [
+        "HAMLEYS",
+        "HAMLEYS INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "General/Department Store",
+      "type": "Offline"
+    },
+    {
+      "name": "Lego Store",
+      "aliases": [
+        "LEGO",
+        "LEGO STORE"
+      ],
+      "category": "Shopping",
+      "subcategory": "General/Department Store",
+      "type": "Both"
+    },
+    {
+      "name": "Marriott Hotels",
+      "aliases": [
+        "MARRIOTT",
+        "MARRIOTT INTERNATIONAL",
+        "MARRIOTT HOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Hyatt Hotels",
+      "aliases": [
+        "HYATT",
+        "HYATT HOTELS",
+        "HYATT REGENCY"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Hilton",
+      "aliases": [
+        "HILTON",
+        "HILTON HOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Radisson",
+      "aliases": [
+        "RADISSON",
+        "RADISSON BLU",
+        "RADISSON HOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Novotel/Accor",
+      "aliases": [
+        "NOVOTEL",
+        "ACCOR",
+        "ACCOR HOTELS",
+        "IBIS HOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Holiday Inn (IHG)",
+      "aliases": [
+        "HOLIDAY INN",
+        "IHG",
+        "INTERCONTINENTAL HOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Taco Bell",
+      "aliases": [
+        "TACO BELL"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "Dunkin' Donuts",
+      "aliases": [
+        "DUNKIN",
+        "DUNKIN DONUTS",
+        "DUNKIN'"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Krispy Kreme",
+      "aliases": [
+        "KRISPY KREME"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Papa John's Pizza",
+      "aliases": [
+        "PAPA JOHNS",
+        "PAPA JOHN'S"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "TGI Fridays",
+      "aliases": [
+        "TGI FRIDAYS",
+        "TGI FRIDAY'S"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Hard Rock Cafe",
+      "aliases": [
+        "HARD ROCK CAFE",
+        "HARD ROCK"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Chili's Grill & Bar",
+      "aliases": [
+        "CHILIS",
+        "CHILI'S",
+        "CHILIS GRILL AND BAR"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Netflix",
+      "aliases": [
+        "NETFLIX",
+        "NETFLIX.COM"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Amazon Prime Video",
+      "aliases": [
+        "AMAZON PRIME VIDEO",
+        "PRIME VIDEO",
+        "AMAZON PRIME"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "JioHotstar",
+      "aliases": [
+        "JIOHOTSTAR",
+        "JIO HOTSTAR",
+        "HOTSTAR",
+        "DISNEY HOTSTAR",
+        "DISNEY+ HOTSTAR"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "JioCinema",
+      "aliases": [
+        "JIOCINEMA",
+        "JIO CINEMA"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "SonyLIV",
+      "aliases": [
+        "SONYLIV",
+        "SONY LIV"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "ZEE5",
+      "aliases": [
+        "ZEE5"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Apple TV+",
+      "aliases": [
+        "APPLE TV",
+        "APPLE TV PLUS",
+        "APPLE TV+"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Lionsgate Play",
+      "aliases": [
+        "LIONSGATE PLAY",
+        "LIONSGATE"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Sun NXT",
+      "aliases": [
+        "SUN NXT",
+        "SUNNXT"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Spotify",
+      "aliases": [
+        "SPOTIFY"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Music Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Gaana",
+      "aliases": [
+        "GAANA"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Music Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "JioSaavn",
+      "aliases": [
+        "JIOSAAVN",
+        "SAAVN"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Music Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Apple Music",
+      "aliases": [
+        "APPLE MUSIC"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Music Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Amazon Music",
+      "aliases": [
+        "AMAZON MUSIC"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Music Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Wynk Music",
+      "aliases": [
+        "WYNK MUSIC",
+        "AIRTEL WYNK",
+        "WYNK"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Music Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "YouTube Premium/Music",
+      "aliases": [
+        "YOUTUBE PREMIUM",
+        "YOUTUBE MUSIC",
+        "GOOGLE YOUTUBE"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Music Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Google One",
+      "aliases": [
+        "GOOGLE ONE",
+        "GOOGLE STORAGE"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Cloud Storage/SaaS",
+      "type": "Online"
+    },
+    {
+      "name": "Apple iCloud+",
+      "aliases": [
+        "ICLOUD",
+        "APPLE ICLOUD",
+        "ICLOUD+"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Cloud Storage/SaaS",
+      "type": "Online"
+    },
+    {
+      "name": "Microsoft 365",
+      "aliases": [
+        "MICROSOFT 365",
+        "OFFICE 365",
+        "MICROSOFT OFFICE",
+        "MSFT"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Productivity Software",
+      "type": "Online"
+    },
+    {
+      "name": "Dropbox",
+      "aliases": [
+        "DROPBOX"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Cloud Storage/SaaS",
+      "type": "Online"
+    },
+    {
+      "name": "Adobe Creative Cloud",
+      "aliases": [
+        "ADOBE",
+        "ADOBE CREATIVE CLOUD",
+        "ADOBE SYSTEMS",
+        "ADOBE INC"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Productivity Software",
+      "type": "Online"
+    },
+    {
+      "name": "Canva",
+      "aliases": [
+        "CANVA",
+        "CANVA PRO"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Productivity Software",
+      "type": "Online"
+    },
+    {
+      "name": "Notion",
+      "aliases": [
+        "NOTION",
+        "NOTION LABS"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Productivity Software",
+      "type": "Online"
+    },
+    {
+      "name": "LinkedIn Premium",
+      "aliases": [
+        "LINKEDIN",
+        "LINKEDIN PREMIUM"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Productivity Software",
+      "type": "Online"
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "aliases": [
+        "AMAZON WEB SERVICES",
+        "AWS"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Cloud Storage/SaaS",
+      "type": "Online"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "aliases": [
+        "GOOGLE CLOUD",
+        "GOOGLE CLOUD PLATFORM",
+        "GCP"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Cloud Storage/SaaS",
+      "type": "Online"
+    },
+    {
+      "name": "GitHub",
+      "aliases": [
+        "GITHUB",
+        "GITHUB INC"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Productivity Software",
+      "type": "Online"
+    },
+    {
+      "name": "Slack",
+      "aliases": [
+        "SLACK",
+        "SLACK TECHNOLOGIES"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Productivity Software",
+      "type": "Online"
+    },
+    {
+      "name": "ChatGPT Plus (OpenAI)",
+      "aliases": [
+        "OPENAI",
+        "CHATGPT",
+        "OPENAI CHATGPT"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "AI Tools",
+      "type": "Online"
+    },
+    {
+      "name": "Claude (Anthropic)",
+      "aliases": [
+        "ANTHROPIC",
+        "CLAUDE AI",
+        "CLAUDE.AI"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "AI Tools",
+      "type": "Online"
+    },
+    {
+      "name": "Perplexity AI",
+      "aliases": [
+        "PERPLEXITY",
+        "PERPLEXITY AI"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "AI Tools",
+      "type": "Online"
+    },
+    {
+      "name": "Google Gemini Advanced",
+      "aliases": [
+        "GOOGLE GEMINI",
+        "GEMINI ADVANCED"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "AI Tools",
+      "type": "Online"
+    },
+    {
+      "name": "Times Prime",
+      "aliases": [
+        "TIMES PRIME",
+        "TIMES INTERNET"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "News/Reading/Audiobooks",
+      "type": "Online"
+    },
+    {
+      "name": "Economic Times Prime",
+      "aliases": [
+        "ET PRIME",
+        "ECONOMIC TIMES PRIME"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "News/Reading/Audiobooks",
+      "type": "Online"
+    },
+    {
+      "name": "Audible",
+      "aliases": [
+        "AUDIBLE",
+        "AUDIBLE INDIA"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "News/Reading/Audiobooks",
+      "type": "Online"
+    },
+    {
+      "name": "Kindle Unlimited",
+      "aliases": [
+        "KINDLE UNLIMITED"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "News/Reading/Audiobooks",
+      "type": "Online"
+    },
+    {
+      "name": "Blue Dart",
+      "aliases": [
+        "BLUE DART",
+        "BLUEDART",
+        "BLUEDART EXPRESS"
+      ],
+      "category": "Logistics & Courier",
+      "subcategory": "Domestic Courier",
+      "type": "Offline"
+    },
+    {
+      "name": "DTDC",
+      "aliases": [
+        "DTDC",
+        "DTDC EXPRESS"
+      ],
+      "category": "Logistics & Courier",
+      "subcategory": "Domestic Courier",
+      "type": "Offline"
+    },
+    {
+      "name": "Delhivery",
+      "aliases": [
+        "DELHIVERY"
+      ],
+      "category": "Logistics & Courier",
+      "subcategory": "Domestic Courier",
+      "type": "Both"
+    },
+    {
+      "name": "Ecom Express",
+      "aliases": [
+        "ECOM EXPRESS"
+      ],
+      "category": "Logistics & Courier",
+      "subcategory": "Domestic Courier",
+      "type": "Both"
+    },
+    {
+      "name": "FedEx India",
+      "aliases": [
+        "FEDEX",
+        "FEDEX INDIA"
+      ],
+      "category": "Logistics & Courier",
+      "subcategory": "International Courier",
+      "type": "Offline"
+    },
+    {
+      "name": "DHL Express",
+      "aliases": [
+        "DHL",
+        "DHL EXPRESS"
+      ],
+      "category": "Logistics & Courier",
+      "subcategory": "International Courier",
+      "type": "Offline"
+    },
+    {
+      "name": "India Post/Speed Post",
+      "aliases": [
+        "INDIA POST",
+        "SPEED POST",
+        "DEPARTMENT OF POSTS"
+      ],
+      "category": "Logistics & Courier",
+      "subcategory": "Postal Service",
+      "type": "Offline"
+    },
+    {
+      "name": "Maruti Suzuki Service",
+      "aliases": [
+        "MARUTI SUZUKI",
+        "MARUTI SERVICE",
+        "MARUTI TRUE VALUE"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Offline"
+    },
+    {
+      "name": "Hyundai Service",
+      "aliases": [
+        "HYUNDAI",
+        "HYUNDAI MOTOR INDIA",
+        "HYUNDAI SERVICE"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Offline"
+    },
+    {
+      "name": "Mahindra Service",
+      "aliases": [
+        "MAHINDRA",
+        "MAHINDRA AND MAHINDRA",
+        "MAHINDRA SERVICE"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Offline"
+    },
+    {
+      "name": "Tata Motors Service",
+      "aliases": [
+        "TATA MOTORS",
+        "TATA MOTORS SERVICE"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Offline"
+    },
+    {
+      "name": "Honda Service",
+      "aliases": [
+        "HONDA",
+        "HONDA CARS INDIA",
+        "HONDA SERVICE"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Offline"
+    },
+    {
+      "name": "Bosch Car Service",
+      "aliases": [
+        "BOSCH CAR SERVICE"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Offline"
+    },
+    {
+      "name": "GoMechanic",
+      "aliases": [
+        "GOMECHANIC"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Online"
+    },
+    {
+      "name": "Pitstop",
+      "aliases": [
+        "PITSTOP",
+        "PIT STOP"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Online"
+    },
+    {
+      "name": "Tata Power EZ Charge",
+      "aliases": [
+        "TATA POWER EZ CHARGE",
+        "EZ CHARGE",
+        "TATA POWER EV"
+      ],
+      "category": "Travel",
+      "subcategory": "EV Charging",
+      "type": "Offline"
+    },
+    {
+      "name": "Statiq",
+      "aliases": [
+        "STATIQ",
+        "STATIQ EV"
+      ],
+      "category": "Travel",
+      "subcategory": "EV Charging",
+      "type": "Online"
+    },
+    {
+      "name": "ChargeZone",
+      "aliases": [
+        "CHARGEZONE",
+        "CHARGE ZONE"
+      ],
+      "category": "Travel",
+      "subcategory": "EV Charging",
+      "type": "Offline"
+    },
+    {
+      "name": "Ather Grid",
+      "aliases": [
+        "ATHER GRID",
+        "ATHER ENERGY"
+      ],
+      "category": "Travel",
+      "subcategory": "EV Charging",
+      "type": "Offline"
+    },
+    {
+      "name": "HDFC Ergo",
+      "aliases": [
+        "HDFC ERGO",
+        "HDFC ERGO GENERAL INSURANCE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Both"
+    },
+    {
+      "name": "ICICI Lombard",
+      "aliases": [
+        "ICICI LOMBARD"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Both"
+    },
+    {
+      "name": "Bajaj Allianz",
+      "aliases": [
+        "BAJAJ ALLIANZ"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Both"
+    },
+    {
+      "name": "Max Life Insurance",
+      "aliases": [
+        "MAX LIFE",
+        "MAX LIFE INSURANCE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Both"
+    },
+    {
+      "name": "SBI Life Insurance",
+      "aliases": [
+        "SBI LIFE",
+        "SBI LIFE INSURANCE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Both"
+    },
+    {
+      "name": "Star Health Insurance",
+      "aliases": [
+        "STAR HEALTH",
+        "STAR HEALTH INSURANCE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Both"
+    },
+    {
+      "name": "Tata AIG",
+      "aliases": [
+        "TATA AIG",
+        "TATA AIG GENERAL INSURANCE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Both"
+    },
+    {
+      "name": "Barbeque Nation",
+      "aliases": [
+        "BARBEQUE NATION",
+        "BBQ NATION"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Absolute Barbecues",
+      "aliases": [
+        "ABSOLUTE BARBECUES",
+        "AB'S ABSOLUTE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Sagar Ratna",
+      "aliases": [
+        "SAGAR RATNA"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Saravana Bhavan",
+      "aliases": [
+        "SARAVANA BHAVAN",
+        "HOTEL SARAVANA BHAVAN"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Punjabi By Nature",
+      "aliases": [
+        "PUNJABI BY NATURE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Mainland China",
+      "aliases": [
+        "MAINLAND CHINA",
+        "SPECIALITY RESTAURANTS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Copper Chimney",
+      "aliases": [
+        "COPPER CHIMNEY"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Pind Balluchi",
+      "aliases": [
+        "PIND BALLUCHI"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Costa Coffee",
+      "aliases": [
+        "COSTA COFFEE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Cafe & Coffee",
+      "type": "Offline"
+    },
+    {
+      "name": "Mad Over Donuts",
+      "aliases": [
+        "MAD OVER DONUTS",
+        "MOD DONUTS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Keventers",
+      "aliases": [
+        "KEVENTERS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Nathu's Sweets",
+      "aliases": [
+        "NATHUS",
+        "NATHU'S SWEETS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "Anand Sweets",
+      "aliases": [
+        "ANAND SWEETS"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Bakery/Sweets",
+      "type": "Offline"
+    },
+    {
+      "name": "The Bombay Canteen",
+      "aliases": [
+        "THE BOMBAY CANTEEN",
+        "BOMBAY CANTEEN"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Indian Coffee House",
+      "aliases": [
+        "INDIAN COFFEE HOUSE"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Cafe & Coffee",
+      "type": "Offline"
+    },
+    {
+      "name": "Chai Point",
+      "aliases": [
+        "CHAI POINT"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Cafe & Coffee",
+      "type": "Offline"
+    },
+    {
+      "name": "Kathi Junction",
+      "aliases": [
+        "KATHI JUNCTION"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Fast Food/QSR",
+      "type": "Offline"
+    },
+    {
+      "name": "Biryani By Kilo",
+      "aliases": [
+        "BIRYANI BY KILO",
+        "BBK BIRYANI"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Online"
+    },
+    {
+      "name": "Paradise Biryani",
+      "aliases": [
+        "PARADISE BIRYANI",
+        "PARADISE FOOD COURT"
+      ],
+      "category": "Food & Dining",
+      "subcategory": "Restaurant",
+      "type": "Offline"
+    },
+    {
+      "name": "Easyday",
+      "aliases": [
+        "EASYDAY",
+        "EASYDAY CLUB"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Heritage Fresh",
+      "aliases": [
+        "HERITAGE FRESH"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Nilgiris",
+      "aliases": [
+        "NILGIRIS",
+        "NILGIRIS SUPERMARKET"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Ratnadeep Supermarket",
+      "aliases": [
+        "RATNADEEP",
+        "RATNADEEP SUPERMARKET"
+      ],
+      "category": "Grocery",
+      "subcategory": "Supermarket",
+      "type": "Offline"
+    },
+    {
+      "name": "Milkbasket",
+      "aliases": [
+        "MILKBASKET"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "Country Delight",
+      "aliases": [
+        "COUNTRY DELIGHT"
+      ],
+      "category": "Grocery",
+      "subcategory": "Online Grocery/Quick Commerce",
+      "type": "Online"
+    },
+    {
+      "name": "Reliance Trends",
+      "aliases": [
+        "RELIANCE TRENDS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "V-Mart",
+      "aliases": [
+        "V-MART",
+        "VMART RETAIL"
+      ],
+      "category": "Shopping",
+      "subcategory": "General/Department Store",
+      "type": "Offline"
+    },
+    {
+      "name": "V2 Retail",
+      "aliases": [
+        "V2 RETAIL"
+      ],
+      "category": "Shopping",
+      "subcategory": "General/Department Store",
+      "type": "Offline"
+    },
+    {
+      "name": "Central",
+      "aliases": [
+        "CENTRAL",
+        "TRENT CENTRAL"
+      ],
+      "category": "Shopping",
+      "subcategory": "General/Department Store",
+      "type": "Offline"
+    },
+    {
+      "name": "Globus Stores",
+      "aliases": [
+        "GLOBUS",
+        "GLOBUS STORES"
+      ],
+      "category": "Shopping",
+      "subcategory": "Clothing/Fashion",
+      "type": "Offline"
+    },
+    {
+      "name": "Sephora",
+      "aliases": [
+        "SEPHORA",
+        "SEPHORA INDIA"
+      ],
+      "category": "Shopping",
+      "subcategory": "Beauty/Cosmetics",
+      "type": "Both"
+    },
+    {
+      "name": "MAC Cosmetics",
+      "aliases": [
+        "MAC COSMETICS",
+        "MAC"
+      ],
+      "category": "Shopping",
+      "subcategory": "Beauty/Cosmetics",
+      "type": "Offline"
+    },
+    {
+      "name": "The Body Shop",
+      "aliases": [
+        "THE BODY SHOP",
+        "BODY SHOP"
+      ],
+      "category": "Shopping",
+      "subcategory": "Beauty/Cosmetics",
+      "type": "Both"
+    },
+    {
+      "name": "Bath & Body Works",
+      "aliases": [
+        "BATH AND BODY WORKS",
+        "BATH & BODY WORKS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Beauty/Cosmetics",
+      "type": "Offline"
+    },
+    {
+      "name": "Forest Essentials",
+      "aliases": [
+        "FOREST ESSENTIALS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Beauty/Cosmetics",
+      "type": "Both"
+    },
+    {
+      "name": "Mamaearth",
+      "aliases": [
+        "MAMAEARTH",
+        "HONASA CONSUMER"
+      ],
+      "category": "Shopping",
+      "subcategory": "Beauty/Cosmetics",
+      "type": "Online"
+    },
+    {
+      "name": "Sugar Cosmetics",
+      "aliases": [
+        "SUGAR COSMETICS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Beauty/Cosmetics",
+      "type": "Online"
+    },
+    {
+      "name": "Joyalukkas",
+      "aliases": [
+        "JOYALUKKAS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Jewelry/Accessories",
+      "type": "Offline"
+    },
+    {
+      "name": "Senco Gold",
+      "aliases": [
+        "SENCO GOLD"
+      ],
+      "category": "Shopping",
+      "subcategory": "Jewelry/Accessories",
+      "type": "Offline"
+    },
+    {
+      "name": "Bhima Jewellers",
+      "aliases": [
+        "BHIMA JEWELLERS"
+      ],
+      "category": "Shopping",
+      "subcategory": "Jewelry/Accessories",
+      "type": "Offline"
+    },
+    {
+      "name": "Nilkamal Furniture",
+      "aliases": [
+        "NILKAMAL"
+      ],
+      "category": "Shopping",
+      "subcategory": "Home & Furniture",
+      "type": "Both"
+    },
+    {
+      "name": "Godrej Interio",
+      "aliases": [
+        "GODREJ INTERIO"
+      ],
+      "category": "Shopping",
+      "subcategory": "Home & Furniture",
+      "type": "Offline"
+    },
+    {
+      "name": "HomeTown",
+      "aliases": [
+        "HOMETOWN",
+        "HOME TOWN"
+      ],
+      "category": "Shopping",
+      "subcategory": "Home & Furniture",
+      "type": "Offline"
+    },
+    {
+      "name": "@Home",
+      "aliases": [
+        "AT HOME",
+        "@HOME NILKAMAL"
+      ],
+      "category": "Shopping",
+      "subcategory": "Home & Furniture",
+      "type": "Offline"
+    },
+    {
+      "name": "Univercell",
+      "aliases": [
+        "UNIVERCELL"
+      ],
+      "category": "Shopping",
+      "subcategory": "Electronics/Gadgets",
+      "type": "Offline"
+    },
+    {
+      "name": "Landmark Bookstore",
+      "aliases": [
+        "LANDMARK",
+        "LANDMARK BOOKSTORE"
+      ],
+      "category": "Shopping",
+      "subcategory": "Books/Stationery",
+      "type": "Offline"
+    },
+    {
+      "name": "Om Book Shop",
+      "aliases": [
+        "OM BOOK SHOP"
+      ],
+      "category": "Shopping",
+      "subcategory": "Books/Stationery",
+      "type": "Offline"
+    },
+    {
+      "name": "ixigo",
+      "aliases": [
+        "IXIGO"
+      ],
+      "category": "Travel",
+      "subcategory": "Train",
+      "type": "Online"
+    },
+    {
+      "name": "ConfirmTkt",
+      "aliases": [
+        "CONFIRMTKT",
+        "CONFIRM TICKET"
+      ],
+      "category": "Travel",
+      "subcategory": "Train",
+      "type": "Online"
+    },
+    {
+      "name": "Trainman",
+      "aliases": [
+        "TRAINMAN"
+      ],
+      "category": "Travel",
+      "subcategory": "Train",
+      "type": "Online"
+    },
+    {
+      "name": "Orange Travels",
+      "aliases": [
+        "ORANGE TRAVELS"
+      ],
+      "category": "Travel",
+      "subcategory": "Bus",
+      "type": "Offline"
+    },
+    {
+      "name": "Neeta Travels",
+      "aliases": [
+        "NEETA TRAVELS"
+      ],
+      "category": "Travel",
+      "subcategory": "Bus",
+      "type": "Offline"
+    },
+    {
+      "name": "Meru Cabs",
+      "aliases": [
+        "MERU CABS",
+        "MERU"
+      ],
+      "category": "Travel",
+      "subcategory": "Cab/Ride-hailing",
+      "type": "Online"
+    },
+    {
+      "name": "BlaBlaCar",
+      "aliases": [
+        "BLABLACAR"
+      ],
+      "category": "Travel",
+      "subcategory": "Cab/Ride-hailing",
+      "type": "Online"
+    },
+    {
+      "name": "Get My Parking",
+      "aliases": [
+        "GET MY PARKING",
+        "GETMYPARKING"
+      ],
+      "category": "Travel",
+      "subcategory": "Parking",
+      "type": "Online"
+    },
+    {
+      "name": "Thomas Cook India",
+      "aliases": [
+        "THOMAS COOK"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Offline"
+    },
+    {
+      "name": "SOTC Travel",
+      "aliases": [
+        "SOTC",
+        "SOTC TRAVEL"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Offline"
+    },
+    {
+      "name": "Kesari Tours",
+      "aliases": [
+        "KESARI TOURS"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Offline"
+    },
+    {
+      "name": "Veena World",
+      "aliases": [
+        "VEENA WORLD"
+      ],
+      "category": "Travel",
+      "subcategory": "Airplane",
+      "type": "Offline"
+    },
+    {
+      "name": "Thrillophilia",
+      "aliases": [
+        "THRILLOPHILIA"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Adventure/Sports Activity",
+      "type": "Online"
+    },
+    {
+      "name": "Indiahikes",
+      "aliases": [
+        "INDIAHIKES",
+        "INDIA HIKES"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Adventure/Sports Activity",
+      "type": "Online"
+    },
+    {
+      "name": "Ginger Hotels",
+      "aliases": [
+        "GINGER HOTELS",
+        "TAJ GINGER"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Sarovar Hotels",
+      "aliases": [
+        "SAROVAR HOTELS"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Clarks Inn",
+      "aliases": [
+        "CLARKS INN"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Offline"
+    },
+    {
+      "name": "Trivago",
+      "aliases": [
+        "TRIVAGO"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Online"
+    },
+    {
+      "name": "Agoda",
+      "aliases": [
+        "AGODA"
+      ],
+      "category": "Stay/Accommodation",
+      "subcategory": "Hotel",
+      "type": "Online"
+    },
+    {
+      "name": "Snow World",
+      "aliases": [
+        "SNOW WORLD"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Ocean Park",
+      "aliases": [
+        "OCEAN PARK"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Water Kingdom",
+      "aliases": [
+        "WATER KINGDOM"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "GRS Fantasy Park",
+      "aliases": [
+        "GRS FANTASY PARK"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "Fun N Food Village",
+      "aliases": [
+        "FUN N FOOD VILLAGE"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Amusement/Theme Park",
+      "type": "Offline"
+    },
+    {
+      "name": "MX Player",
+      "aliases": [
+        "MX PLAYER"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Hoichoi",
+      "aliases": [
+        "HOICHOI"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Aha Video",
+      "aliases": [
+        "AHA VIDEO",
+        "AHA"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Video Streaming",
+      "type": "Online"
+    },
+    {
+      "name": "Ludo King",
+      "aliases": [
+        "LUDO KING"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Gaming",
+      "type": "Online"
+    },
+    {
+      "name": "BGMI/PUBG Mobile",
+      "aliases": [
+        "BGMI",
+        "PUBG MOBILE",
+        "KRAFTON"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Gaming",
+      "type": "Online"
+    },
+    {
+      "name": "Garena Free Fire",
+      "aliases": [
+        "FREE FIRE",
+        "GARENA"
+      ],
+      "category": "Entertainment",
+      "subcategory": "Gaming",
+      "type": "Online"
+    },
+    {
+      "name": "Wockhardt Hospitals",
+      "aliases": [
+        "WOCKHARDT HOSPITALS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Columbia Asia Hospitals",
+      "aliases": [
+        "COLUMBIA ASIA"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Care Hospitals",
+      "aliases": [
+        "CARE HOSPITALS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Global Hospitals",
+      "aliases": [
+        "GLOBAL HOSPITALS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Hospital/Clinic",
+      "type": "Offline"
+    },
+    {
+      "name": "Healthians",
+      "aliases": [
+        "HEALTHIANS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Diagnostic Lab",
+      "type": "Online"
+    },
+    {
+      "name": "Redcliffe Labs",
+      "aliases": [
+        "REDCLIFFE LABS"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Diagnostic Lab",
+      "type": "Online"
+    },
+    {
+      "name": "HealthifyMe",
+      "aliases": [
+        "HEALTHIFYME"
+      ],
+      "category": "Health/Medical",
+      "subcategory": "Fitness/Gym",
+      "type": "Online"
+    },
+    {
+      "name": "Torrent Power",
+      "aliases": [
+        "TORRENT POWER"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Electricity",
+      "type": "Online"
+    },
+    {
+      "name": "CESC Limited",
+      "aliases": [
+        "CESC",
+        "CESC LIMITED"
+      ],
+      "category": "Utilities & Bills",
+      "subcategory": "Electricity",
+      "type": "Online"
+    },
+    {
+      "name": "Toppr",
+      "aliases": [
+        "TOPPR"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "Simplilearn",
+      "aliases": [
+        "SIMPLILEARN"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "Great Learning",
+      "aliases": [
+        "GREAT LEARNING"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "WhiteHat Jr",
+      "aliases": [
+        "WHITEHAT JR",
+        "WHITEHATJR"
+      ],
+      "category": "Education",
+      "subcategory": "Online Courses/EdTech",
+      "type": "Online"
+    },
+    {
+      "name": "NIIT",
+      "aliases": [
+        "NIIT",
+        "NIIT LIMITED"
+      ],
+      "category": "Education",
+      "subcategory": "Coaching/Tuition",
+      "type": "Both"
+    },
+    {
+      "name": "Angel One",
+      "aliases": [
+        "ANGEL ONE",
+        "ANGEL BROKING"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Investment/Trading",
+      "type": "Online"
+    },
+    {
+      "name": "ICICI Prudential",
+      "aliases": [
+        "ICICI PRUDENTIAL"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Both"
+    },
+    {
+      "name": "HDFC Life",
+      "aliases": [
+        "HDFC LIFE",
+        "HDFC LIFE INSURANCE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Insurance",
+      "type": "Both"
+    },
+    {
+      "name": "Motilal Oswal",
+      "aliases": [
+        "MOTILAL OSWAL"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Investment/Trading",
+      "type": "Both"
+    },
+    {
+      "name": "IIFL Finance",
+      "aliases": [
+        "IIFL",
+        "IIFL FINANCE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Loan/EMI",
+      "type": "Both"
+    },
+    {
+      "name": "Freecharge",
+      "aliases": [
+        "FREECHARGE"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Digital Wallet Load",
+      "type": "Online"
+    },
+    {
+      "name": "MobiKwik",
+      "aliases": [
+        "MOBIKWIK"
+      ],
+      "category": "Financial Services",
+      "subcategory": "Digital Wallet Load",
+      "type": "Online"
+    },
+    {
+      "name": "Enrich Salon",
+      "aliases": [
+        "ENRICH SALON"
+      ],
+      "category": "Personal Care",
+      "subcategory": "Salon/Barber",
+      "type": "Offline"
+    },
+    {
+      "name": "Green Trends",
+      "aliases": [
+        "GREEN TRENDS"
+      ],
+      "category": "Personal Care",
+      "subcategory": "Salon/Barber",
+      "type": "Offline"
+    },
+    {
+      "name": "Toni&Guy",
+      "aliases": [
+        "TONI AND GUY",
+        "TONI&GUY"
+      ],
+      "category": "Personal Care",
+      "subcategory": "Salon/Barber",
+      "type": "Offline"
+    },
+    {
+      "name": "YLG Salon",
+      "aliases": [
+        "YLG SALON",
+        "YLG"
+      ],
+      "category": "Personal Care",
+      "subcategory": "Salon/Barber",
+      "type": "Offline"
+    },
+    {
+      "name": "Faber-Castell",
+      "aliases": [
+        "FABER CASTELL",
+        "FABER-CASTELL"
+      ],
+      "category": "Stationary/Office Supplies",
+      "subcategory": "Art Supplies",
+      "type": "Both"
+    },
+    {
+      "name": "Sulekha",
+      "aliases": [
+        "SULEKHA"
+      ],
+      "category": "Home Services",
+      "subcategory": "Repair & Maintenance",
+      "type": "Online"
+    },
+    {
+      "name": "JustDial",
+      "aliases": [
+        "JUSTDIAL"
+      ],
+      "category": "Home Services",
+      "subcategory": "Repair & Maintenance",
+      "type": "Online"
+    },
+    {
+      "name": "Asian Paints",
+      "aliases": [
+        "ASIAN PAINTS"
+      ],
+      "category": "Home Services",
+      "subcategory": "Repair & Maintenance",
+      "type": "Both"
+    },
+    {
+      "name": "Berger Paints",
+      "aliases": [
+        "BERGER PAINTS"
+      ],
+      "category": "Home Services",
+      "subcategory": "Repair & Maintenance",
+      "type": "Both"
+    },
+    {
+      "name": "Ferns N Petals",
+      "aliases": [
+        "FERNS N PETALS",
+        "FNP"
+      ],
+      "category": "Miscellaneous",
+      "subcategory": "Gifting",
+      "type": "Online"
+    },
+    {
+      "name": "IGP (IndiaGiftPortal)",
+      "aliases": [
+        "IGP",
+        "IGP.COM",
+        "INDIAGIFTPORTAL"
+      ],
+      "category": "Miscellaneous",
+      "subcategory": "Gifting",
+      "type": "Online"
+    },
+    {
+      "name": "Ketto",
+      "aliases": [
+        "KETTO"
+      ],
+      "category": "Miscellaneous",
+      "subcategory": "Donation/Charity",
+      "type": "Online"
+    },
+    {
+      "name": "Milaap",
+      "aliases": [
+        "MILAAP"
+      ],
+      "category": "Miscellaneous",
+      "subcategory": "Donation/Charity",
+      "type": "Online"
+    },
+    {
+      "name": "GiveIndia",
+      "aliases": [
+        "GIVEINDIA"
+      ],
+      "category": "Miscellaneous",
+      "subcategory": "Donation/Charity",
+      "type": "Online"
+    },
+    {
+      "name": "Heads Up For Tails",
+      "aliases": [
+        "HEADS UP FOR TAILS",
+        "HUFT"
+      ],
+      "category": "Miscellaneous",
+      "subcategory": "Pet Care",
+      "type": "Both"
+    },
+    {
+      "name": "Supertails",
+      "aliases": [
+        "SUPERTAILS"
+      ],
+      "category": "Miscellaneous",
+      "subcategory": "Pet Care",
+      "type": "Online"
+    },
+    {
+      "name": "Apollo Tyres",
+      "aliases": [
+        "APOLLO TYRES"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Offline"
+    },
+    {
+      "name": "MRF Tyres",
+      "aliases": [
+        "MRF",
+        "MRF TYRES"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Offline"
+    },
+    {
+      "name": "Castrol",
+      "aliases": [
+        "CASTROL"
+      ],
+      "category": "Automobile",
+      "subcategory": "Vehicle Service/Repair",
+      "type": "Offline"
+    },
+    {
+      "name": "Royal Enfield Service",
+      "aliases": [
+        "ROYAL ENFIELD",
+        "ROYAL ENFIELD SERVICE"
+      ],
+      "category": "Automobile",
+      "subcategory": "Two-Wheeler Service",
+      "type": "Offline"
+    },
+    {
+      "name": "XpressBees",
+      "aliases": [
+        "XPRESSBEES"
+      ],
+      "category": "Logistics & Courier",
+      "subcategory": "Domestic Courier",
+      "type": "Both"
+    },
+    {
+      "name": "Shiprocket",
+      "aliases": [
+        "SHIPROCKET"
+      ],
+      "category": "Logistics & Courier",
+      "subcategory": "Domestic Courier",
+      "type": "Online"
+    },
+    {
+      "name": "Zoom",
+      "aliases": [
+        "ZOOM",
+        "ZOOM VIDEO COMMUNICATIONS"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Productivity Software",
+      "type": "Online"
+    },
+    {
+      "name": "Grammarly",
+      "aliases": [
+        "GRAMMARLY"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "Productivity Software",
+      "type": "Online"
+    },
+    {
+      "name": "Duolingo",
+      "aliases": [
+        "DUOLINGO"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "App Store/Digital Purchase",
+      "type": "Online"
+    },
+    {
+      "name": "Headspace",
+      "aliases": [
+        "HEADSPACE"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "App Store/Digital Purchase",
+      "type": "Online"
+    },
+    {
+      "name": "Calm",
+      "aliases": [
+        "CALM",
+        "CALM APP"
+      ],
+      "category": "Digital Subscriptions & Software",
+      "subcategory": "App Store/Digital Purchase",
+      "type": "Online"
+    }
+  ],
+  "meta": {
+    "country": "India",
+    "total_categories": 18,
+    "total_merchants": 485,
+    "note": "Aliases represent common ways merchant names appear in bank/UPI/card transaction narrations (uppercase, abbreviated, legal entity names). Match using case-insensitive substring/fuzzy matching against these aliases."
+  }
+}
