@@ -20,7 +20,10 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
@@ -31,6 +34,7 @@ import androidx.compose.material.icons.filled.Add
 import android.util.Log
 import kotlinx.coroutines.launch
 import com.example.smart_expense_tracker.healthscore.HealthScoreScreen
+import com.example.smart_expense_tracker.healthscore.InsightEngine
 import com.example.smart_expense_tracker.healthscore.LoanSimulatorScreen
 import com.example.smart_expense_tracker.healthscore.ScoreCalculator
 import com.example.smart_expense_tracker.healthscore.SpendingHistory
@@ -127,7 +131,12 @@ fun ExpenseTrackerScreen(context: android.content.Context) {
                     }
                 }
                 Spacer(Modifier.height(12.dp))
-                TabRow(selectedTabIndex = selectedTab, containerColor = Color.Transparent) {
+                // Scrollable so five tab names fit on one line each instead of wrapping.
+                ScrollableTabRow(
+                    selectedTabIndex = selectedTab,
+                    containerColor = Color.Transparent,
+                    edgePadding = 0.dp
+                ) {
                     Tab(selected = selectedTab == 0, onClick = { selectedTab = 0 }, text = { Text("List") })
                     Tab(selected = selectedTab == 1, onClick = { selectedTab = 1 }, text = { Text("Insights") })
                     Tab(selected = selectedTab == 2, onClick = { selectedTab = 2 }, text = { Text("Recurring") })
@@ -181,16 +190,26 @@ fun ExpenseTrackerScreen(context: android.content.Context) {
         }
 
         if (selectedTab == 3) {
-            Column(modifier = Modifier.padding(padding)) {
+            Column(
+                modifier = Modifier
+                    .padding(padding)
+                    .fillMaxSize()
+                    .background(Color(0xFFFAF7F2))
+            ) {
                 IncomeInputField(incomeText = incomeText, onIncomeChange = { incomeText = it }, hint = incomeHint)
                 HealthScoreScreen(
                     result = scoreResult,
-                    aiInsight = "This is placeholder text — real AI-generated insight coming soon.",
+                    insight = InsightEngine.fallback(rawFactors, scoreResult),
                     modifier = Modifier.weight(1f)
                 )
             }
         } else if (selectedTab == 4) {
-            Column(modifier = Modifier.padding(padding)) {
+            Column(
+                modifier = Modifier
+                    .padding(padding)
+                    .fillMaxSize()
+                    .background(Color(0xFFFAF7F2))
+            ) {
                 IncomeInputField(incomeText = incomeText, onIncomeChange = { incomeText = it }, hint = incomeHint)
                 LoanSimulatorScreen(
                     baseline = rawFactors,
@@ -302,34 +321,59 @@ fun ExpenseTrackerScreen(context: android.content.Context) {
  */
 @Composable
 fun IncomeInputField(incomeText: String, onIncomeChange: (String) -> Unit, hint: String?) {
+    val shape = RoundedCornerShape(24.dp)
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 20.dp, vertical = 8.dp)
+            .padding(horizontal = 20.dp, vertical = 12.dp)
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .background(Color.White, RoundedCornerShape(16.dp))
-                .padding(horizontal = 16.dp, vertical = 4.dp),
+                .shadow(
+                    elevation = 8.dp,
+                    shape = shape,
+                    ambientColor = Color(0x1F5C6B5A),
+                    spotColor = Color(0x3D5C6B5A)
+                )
+                .clip(shape)
+                .background(Color.White)
+                .padding(horizontal = 16.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text("Monthly income  ₹", fontSize = 14.sp, color = Color.Gray)
-            OutlinedTextField(
-                value = incomeText,
-                onValueChange = { new -> if (new.length <= 9 && new.all { it.isDigit() }) onIncomeChange(new) },
-                modifier = Modifier.weight(1f),
-                singleLine = true,
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number, imeAction = ImeAction.Done),
-                colors = OutlinedTextFieldDefaults.colors(
-                    unfocusedBorderColor = Color.Transparent,
-                    focusedBorderColor = Color(0xFF7FA99B)
+            Box(
+                modifier = Modifier
+                    .size(40.dp)
+                    .clip(CircleShape)
+                    .background(Color(0xFFA8C4A2).copy(alpha = 0.35f)),
+                contentAlignment = Alignment.Center
+            ) { Text("💰", fontSize = 18.sp) }
+            Spacer(Modifier.width(12.dp))
+            Column(modifier = Modifier.weight(1f)) {
+                Text("MONTHLY INCOME", fontSize = 10.sp, fontWeight = FontWeight.Bold, color = Color(0xFF8A8A8A))
+                OutlinedTextField(
+                    value = incomeText,
+                    onValueChange = { new -> if (new.length <= 9 && new.all { it.isDigit() }) onIncomeChange(new) },
+                    modifier = Modifier.fillMaxWidth(),
+                    singleLine = true,
+                    textStyle = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold),
+                    prefix = { Text("₹", fontSize = 20.sp, fontWeight = FontWeight.Bold) },
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number, imeAction = ImeAction.Done),
+                    colors = OutlinedTextFieldDefaults.colors(
+                        unfocusedBorderColor = Color.Transparent,
+                        focusedBorderColor = Color.Transparent
+                    )
                 )
-            )
+            }
         }
         if (hint != null) {
-            Spacer(Modifier.height(4.dp))
-            Text(hint, fontSize = 12.sp, color = Color(0xFF7FA99B))
+            Spacer(Modifier.height(8.dp))
+            Text(
+                hint,
+                fontSize = 12.sp,
+                color = Color(0xFF5F8A7B),
+                modifier = Modifier.padding(horizontal = 8.dp)
+            )
         }
     }
 }

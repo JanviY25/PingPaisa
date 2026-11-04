@@ -47,7 +47,7 @@ private object ScoreColors {
 @Composable
 fun HealthScoreScreen(
     result: ScoreCalculator.ScoreResult,
-    aiInsight: String,
+    insight: InsightEngine.Insight,
     modifier: Modifier = Modifier
 ) {
     Column(
@@ -61,7 +61,7 @@ fun HealthScoreScreen(
         Spacer(Modifier.height(20.dp))
         FactorBreakdownCard(f = result.factors)
         Spacer(Modifier.height(20.dp))
-        AiInsightCard(insight = aiInsight)
+        InsightCard(insight = insight)
         Spacer(Modifier.height(20.dp))
     }
 }
@@ -85,14 +85,14 @@ private fun GaugeCard(score: Int, risk: ScoreCalculator.RiskLevel) {
 
         Column(modifier = Modifier.padding(24.dp)) {
             Text(
-                "FINANCIAL HEALTH",
+                "FINANCIAL WEALTH",
                 fontSize = 11.sp,
                 fontWeight = FontWeight.Bold,
                 color = ScoreColors.DustyTeal
             )
             Spacer(Modifier.height(4.dp))
             Text(
-                "Financial health",
+                "Financial wealth",
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
                 color = ScoreColors.TextDark
@@ -285,27 +285,40 @@ private fun FactorBar(label: String, value: Double, color: Color, detail: String
     }
 }
 
+/**
+ * Lavender is reserved for AI-generated content (design system rule), so the card
+ * is lavender with an "AI INSIGHT" label only when an LLM wrote the text.
+ * The rule-based fallback text uses a teal tint and the plain label "INSIGHT".
+ */
 @Composable
-private fun AiInsightCard(insight: String) {
+private fun InsightCard(insight: InsightEngine.Insight) {
+    val background = if (insight.isAi) {
+        ScoreColors.AiLavender.copy(alpha = 0.35f)
+    } else {
+        ScoreColors.DustyTeal.copy(alpha = 0.18f)
+    }
+    val label = if (insight.isAi) "AI INSIGHT" else "INSIGHT"
+    val icon = if (insight.isAi) "✨" else "💡"
+
     Row(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(24.dp))
-            .background(ScoreColors.AiLavender.copy(alpha = 0.35f))
+            .background(background)
             .padding(16.dp),
         verticalAlignment = Alignment.Top
     ) {
-        Text("✨", fontSize = 20.sp)
+        Text(icon, fontSize = 20.sp)
         Spacer(Modifier.width(12.dp))
         Column {
             Text(
-                "AI RECOMMENDATION",
+                label,
                 fontSize = 11.sp,
                 fontWeight = FontWeight.Bold,
                 color = ScoreColors.DustyTeal
             )
             Spacer(Modifier.height(4.dp))
-            Text(insight, fontSize = 14.sp, color = ScoreColors.TextDark)
+            Text(insight.text, fontSize = 14.sp, color = ScoreColors.TextDark)
         }
     }
 }

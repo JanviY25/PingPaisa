@@ -85,18 +85,20 @@ object VerdictEngine {
                 ScoreCalculator.WEIGHT_EMI * 100).roundToInt()
 
         val savingsLine = "Savings rate would go from ${(savingsBefore * 100).roundToInt()}% " +
-                "to ${(savingsAfter * 100).roundToInt()}% (-$savingsPts score points)."
+                "to ${(savingsAfter * 100).roundToInt()}%" +
+                if (savingsPts > 0) " (-$savingsPts score points)." else " (still comfortable, no score impact)."
         val emiLine = "EMIs would use ${pct(emiRatioAfter)} of your income, " +
-                "up from ${pct(emiRatioBefore)} (-$emiPts score points)."
+                "up from ${pct(emiRatioBefore)}" +
+                if (emiPts > 0) " (-$emiPts score points)." else " (still in the comfortable range, no score impact)."
 
         val topTwo = listOf(savingsPts to savingsLine, emiPts to emiLine)
             .sortedByDescending { it.first }
             .map { it.second }
 
         val surplusLine = if (surplusAfter >= 0) {
-            "After expenses and this EMI you'd still keep about ₹${"%,.0f".format(surplusAfter)} a month."
+            "After expenses and this EMI you'd still keep about ${Money.inr(surplusAfter)} a month."
         } else {
-            "You'd be about ₹${"%,.0f".format(-surplusAfter)} short every month, because expenses plus this EMI exceed your income."
+            "You'd be about ${Money.inr(-surplusAfter)} short every month, because expenses plus this EMI exceed your income."
         }
 
         return VerdictResult(verdict, topTwo + surplusLine, before, after)
